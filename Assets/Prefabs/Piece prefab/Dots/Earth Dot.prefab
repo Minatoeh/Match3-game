@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3694157786077975476}
   - component: {fileID: 5599539456940354801}
   m_Layer: 0
-  m_Name: Green Dot
-  m_TagString: Green Dot
+  m_Name: Earth Dot
+  m_TagString: Earth Dot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 677143392, guid: 790bfa6e7dc84ce4b9947f9ac2b751af, type: 3}
+  m_Sprite: {fileID: -618839615, guid: 7d2b822ca91304f41a244491c572fa31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

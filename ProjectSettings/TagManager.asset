@@ -16,6 +16,7 @@ TagManager:
   - Chocolate
   - Breakable
   - Lock
+  - Earth Dot
   layers:
   - Default
   - TransparentFX
