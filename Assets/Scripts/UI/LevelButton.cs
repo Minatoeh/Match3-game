@@ -38,30 +38,29 @@ public class LevelButton : MonoBehaviour
 
     void LoadData()
     {
-        //Is GameData present ?
-        if(gameData != null)
-        {
-            //Decide if the level is active
-            if (gameData.saveData.isActive[level - 1])
-            {
-                isActive = true;
-            }
-            else
-            {
-                isActive = false;
-            }
-            //Decide how many stars to activate
-            starsActive = gameData.saveData.stars[level - 1];
-        }
+        if (gameData == null || gameData.saveData == null || level <= 0)
+            return;
+
+        int idx = level - 1;
+
+        var act = gameData.saveData.isActive;
+        var st = gameData.saveData.stars;
+
+        if (act == null || st == null) return;
+        if (idx < 0 || idx >= act.Length || idx >= st.Length) return;
+
+        isActive = act[idx];
+        starsActive = Mathf.Max(0, st[idx]);
     }
-        
+
     void ActivateStars()
     {
-        for(int i = 0; i < starsActive; i++)
-        {
-            stars[i].enabled = true;
-        }
+        if (stars == null) return;
+        int n = Mathf.Min(starsActive, stars.Length);
+        for (int i = 0; i < n; i++)
+            if (stars[i] != null) stars[i].enabled = true;
     }
+
 
     void DecideSprite()
     {
@@ -81,8 +80,9 @@ public class LevelButton : MonoBehaviour
 
     void ShowLevel()
     {
-        levelText.text = "" + level;
-     }
+        if (levelText != null) levelText.text = level.ToString();
+    }
+
 
 
     public void ConfirmPanel(int level)

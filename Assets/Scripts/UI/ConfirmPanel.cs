@@ -7,7 +7,6 @@ using TMPro;
 
 public class ConfirmPanel : MonoBehaviour
 {
-
     [Header("Level Information")]
     public string levelToLoad;
     public int level;
@@ -20,51 +19,58 @@ public class ConfirmPanel : MonoBehaviour
     public TextMeshProUGUI highScoreText;
     public TextMeshProUGUI starText;
 
-
-    // Start is called before the first frame update
     void OnEnable()
     {
         gameData = FindObjectOfType<GameData>();
-        LoadData();
-        ActivateStars();
-        SetText();
+        LoadDataSafe();
+        ActivateStarsSafe();
+        SetTextSafe();
     }
 
-    void LoadData()
+    void LoadDataSafe()
     {
-        if(gameData != null)
-        {
-            starsActive = gameData.saveData.stars[level - 1];
-            highScore = gameData.saveData.highScores[level - 1];
-        }
+        starsActive = 0;
+        highScore = 0;
+
+        if (gameData == null || gameData.saveData == null || level <= 0)
+            return;
+
+        int idx = level - 1;
+
+        var save = gameData.saveData;
+        if (save.stars != null && idx >= 0 && idx < save.stars.Length)
+            starsActive = Mathf.Clamp(save.stars[idx], 0, stars != null ? stars.Length : 3);
+
+        if (save.highScores != null && idx >= 0 && idx < save.highScores.Length)
+            highScore = Mathf.Max(0, save.highScores[idx]);
     }
 
-    void SetText()
+    void ActivateStarsSafe()
     {
-        highScoreText.text = "" + highScore;
-        starText.text = "" + starsActive + "/3";
-      }
-    void ActivateStars()
-    {
-        for (int i = 0; i < starsActive; i++)
-        {
-            stars[i].enabled = true;
-        }
+        if (stars == null) return;
+
+        for (int i = 0; i < stars.Length; i++)
+            if (stars[i] != null) stars[i].enabled = false;
+
+        int count = Mathf.Min(starsActive, stars.Length);
+        for (int i = 0; i < count; i++)
+            if (stars[i] != null) stars[i].enabled = true;
     }
-    // Update is called once per frame
-    void Update()
+
+    void SetTextSafe()
     {
-        
+        if (highScoreText) highScoreText.text = highScore.ToString();
+        if (starText) starText.text = $"{starsActive}/3";
     }
 
     public void Cancel()
     {
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void Play()
     {
-        PlayerPrefs.SetInt("Current Level", level - 1);
+        PlayerPrefs.SetInt("Current Level", Mathf.Max(0, level - 1));
         SceneManager.LoadScene(levelToLoad);
     }
 }
