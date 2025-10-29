@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6acb55169ad41d5428f95312a4c127e0, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 7
+  boardLayout:
+  - x: 2
+    y: 2
+    tileKind: 4
+  - x: 2
+    y: 3
+    tileKind: 4
+  - x: 2
+    y: 4
+    tileKind: 4
+  - x: 0
+    y: 0
+    tileKind: 0
+  dots:
+  - {fileID: 3130183179656700725, guid: f9ce8ad6cd32f20439fe972bfa4f8f64, type: 3}
+  - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
+  - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
+  - {fileID: 3683351542993671070, guid: 0632fff31a93d8944b56fc6bc884b0b0, type: 3}
+  scoreGoals: 640000009001000058020000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 10
+  levelGoals:
+  - numberNeeded: 20
+    numberCollected: 9
+    goalSprite: {fileID: -1924628866, guid: 790bfa6e7dc84ce4b9947f9ac2b751af, type: 3}
+    matchValue: Red Dot
