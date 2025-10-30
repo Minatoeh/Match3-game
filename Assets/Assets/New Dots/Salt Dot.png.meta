@@ -95,7 +95,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Salt Dot_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 750
+        width: 234
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17196cd3d276f6a4faa9e23528d48136
+      internalID: 1478488177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 749
+        width: 235
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cda95807da33e499ff95c8b68fef0e
+      internalID: 958711702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_2
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 749
+        width: 234
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3749b03c86991f945afcda135635e320
+      internalID: -1608949125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 421
+        width: 235
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf13e3a9afc39f468b01749aa50f70d
+      internalID: -1609871990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 396
+        width: 280
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befc9e57eb7a3f34f99cccfbca6bcc2f
+      internalID: -1281942474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_5
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 421
+        width: 235
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b20312b16033ec4896812989237dbb5
+      internalID: 1339768027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 93
+        width: 236
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb881b2de161fae49ada164e39895557
+      internalID: -1937843225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 97
+        width: 238
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8b51e81685e604380d2146b5125812
+      internalID: 2055232931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salt Dot_8
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 98
+        width: 227
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f0ce5a6092790448cb62e04f74fef2
+      internalID: 1720787078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +295,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Salt Dot_0: 1478488177
+      Salt Dot_1: 958711702
+      Salt Dot_2: -1608949125
+      Salt Dot_3: -1609871990
+      Salt Dot_4: -1281942474
+      Salt Dot_5: 1339768027
+      Salt Dot_6: -1937843225
+      Salt Dot_7: 2055232931
+      Salt Dot_8: 1720787078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -95,7 +95,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wind Dot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a71d9642adad4a888815bba5a158b
+      internalID: 1168793679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 684
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f19bdf601498a747a8d1b7072b32171
+      internalID: 1913547237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 684
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642e322832337d2408059bf307b5e8cb
+      internalID: 341785541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c619c27178857a943874baf3a0fd2bb7
+      internalID: 2075623046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 344
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23a3ac3795af64418e95c4e7e1caa45
+      internalID: -430444101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 344
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46ce356491c818469855009619fa521
+      internalID: 150339299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e0fbe9deabcd4ea198f3eb2fc89ee
+      internalID: 591552803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 4
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df60b6c8a672a3488ef7d09a7a54430
+      internalID: -1546076897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind Dot_8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 4
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56932c8e6af8164a86e56893fc6ed6b
+      internalID: 1157633251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +295,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wind Dot_0: 1168793679
+      Wind Dot_1: 1913547237
+      Wind Dot_2: 341785541
+      Wind Dot_3: 2075623046
+      Wind Dot_4: -430444101
+      Wind Dot_5: 150339299
+      Wind Dot_6: 591552803
+      Wind Dot_7: -1546076897
+      Wind Dot_8: 1157633251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
