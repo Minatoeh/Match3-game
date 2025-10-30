@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5862470800880913702}
   m_Layer: 0
   m_Name: Mercury Dot
-  m_TagString: Blue Dot
+  m_TagString: Mercury Dot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

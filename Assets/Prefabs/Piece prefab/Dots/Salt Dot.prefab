@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2466507099016859663}
   m_Layer: 0
   m_Name: Salt Dot
-  m_TagString: Yellow Dot
+  m_TagString: Salt Dot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

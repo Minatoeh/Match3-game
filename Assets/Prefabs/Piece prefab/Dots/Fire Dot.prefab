@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3290393345549531820}
   m_Layer: 0
   m_Name: Fire Dot
-  m_TagString: Red Dot
+  m_TagString: Fire Dot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -17,6 +17,12 @@ TagManager:
   - Breakable
   - Lock
   - Earth Dot
+  - Fire Dot
+  - Mercury Dot
+  - Salt Dot
+  - Sulfur Dot
+  - Water Dot
+  - Wind Dot
   layers:
   - Default
   - TransparentFX

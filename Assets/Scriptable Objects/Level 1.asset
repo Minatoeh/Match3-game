@@ -29,7 +29,6 @@ MonoBehaviour:
     tileKind: 0
   dots:
   - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
-  - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
   - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
   - {fileID: 3683351542993671070, guid: 0632fff31a93d8944b56fc6bc884b0b0, type: 3}
   scoreGoals: 640000009001000058020000
@@ -39,5 +38,5 @@ MonoBehaviour:
   levelGoals:
   - numberNeeded: 20
     numberCollected: 9
-    goalSprite: {fileID: -1924628866, guid: 790bfa6e7dc84ce4b9947f9ac2b751af, type: 3}
-    matchValue: Red Dot
+    goalSprite: {fileID: -222163700, guid: c8e7faea119719a43b71add1a3a72fa2, type: 3}
+    matchValue: Fire Dot
