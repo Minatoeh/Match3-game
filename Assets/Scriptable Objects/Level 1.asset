@@ -12,21 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6acb55169ad41d5428f95312a4c127e0, type: 3}
   m_Name: Level 1
   m_EditorClassIdentifier: 
-  width: 7
+  width: 8
   height: 7
   boardLayout:
-  - x: 2
-    y: 2
-    tileKind: 4
-  - x: 2
-    y: 3
-    tileKind: 4
-  - x: 2
-    y: 4
-    tileKind: 4
   - x: 0
     y: 0
-    tileKind: 0
+    tileKind: 1
+  - x: 0
+    y: 3
+    tileKind: 1
+  - x: 0
+    y: 6
+    tileKind: 1
+  - x: 7
+    y: 0
+    tileKind: 1
+  - x: 7
+    y: 3
+    tileKind: 1
+  - x: 7
+    y: 6
+    tileKind: 1
   dots:
   - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
   - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
@@ -37,6 +43,6 @@ MonoBehaviour:
     counterValue: 10
   levelGoals:
   - numberNeeded: 20
-    numberCollected: 9
+    numberCollected: 0
     goalSprite: {fileID: -222163700, guid: c8e7faea119719a43b71add1a3a72fa2, type: 3}
     matchValue: Fire Dot

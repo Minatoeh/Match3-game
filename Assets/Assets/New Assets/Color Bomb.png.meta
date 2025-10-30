@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Color Bomb_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 712
+        width: 275
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a451d540a2459e4b8f4857f8042d4d1
+      internalID: 1589917318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 712
+        width: 276
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045513f3e7d859e4a9bdeb456e528e64
+      internalID: -276362134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 712
+        width: 285
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e04d5bb8047ed48b16343ec0d87892
+      internalID: -1478510606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 387
+        width: 286
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49be022ca77f8a14682e18213e083a90
+      internalID: 24714755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 380
+        width: 292
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9c4b64abb0a0a4794bc97894f60c2d
+      internalID: -9149305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 387
+        width: 284
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03671fcdda352184b9e8538691cf3256
+      internalID: 364760995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 59
+        width: 276
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17046f109a5a9041951a314a3d96fbf
+      internalID: -1522477707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 59
+        width: 277
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b10345dfa84e642a4ee0cfbacf46bd
+      internalID: -1937552927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Color Bomb_8
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 59
+        width: 277
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e608ef6b9faff4b9ba27e1d670a2b2
+      internalID: 125244162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +295,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Color Bomb_0: 1589917318
+      Color Bomb_1: -276362134
+      Color Bomb_2: -1478510606
+      Color Bomb_3: 24714755
+      Color Bomb_4: -9149305
+      Color Bomb_5: 364760995
+      Color Bomb_6: -1522477707
+      Color Bomb_7: -1937552927
+      Color Bomb_8: 125244162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
