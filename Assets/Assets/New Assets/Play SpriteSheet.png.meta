@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 872716825b3f65249afd941e3c1b525d
+guid: 5eb9e954e5670844885c326b84b4c83e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Color Bomb_0
+      name: Play SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 712
-        width: 275
-        height: 260
+        x: 40
+        y: 702
+        width: 290
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a451d540a2459e4b8f4857f8042d4d1
-      internalID: 1589917318
+      spriteID: 461616716eb0b2543b068e9dad77b84a
+      internalID: 282763263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Color Bomb_1
+      name: Play SpriteSheet_1
       rect:
         serializedVersion: 2
         x: 373
-        y: 712
-        width: 276
-        height: 260
+        y: 698
+        width: 283
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 045513f3e7d859e4a9bdeb456e528e64
-      internalID: -276362134
+      spriteID: 3a1b7363602721a41b818c5864220aae
+      internalID: 193225354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Color Bomb_2
+      name: Play SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 707
-        y: 712
+        x: 695
+        y: 697
+        width: 287
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a81108164a0384590c4aed9c96d7d6
+      internalID: -1063898416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 394
+        width: 291
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9731d6e36ceb68445a2b55990105c6c9
+      internalID: -1959895126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 395
         width: 285
-        height: 260
+        height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18e04d5bb8047ed48b16343ec0d87892
-      internalID: -1478510606
+      spriteID: 788ae601d9d65664c948cb399d963d09
+      internalID: 1489236147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Color Bomb_3
+      name: Play SpriteSheet_5
       rect:
         serializedVersion: 2
-        x: 38
-        y: 387
+        x: 696
+        y: 393
         width: 286
-        height: 264
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49be022ca77f8a14682e18213e083a90
-      internalID: 24714755
+      spriteID: 8911b8d568db4424b88b72b12032379c
+      internalID: -1134017973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Color Bomb_4
+      name: Play SpriteSheet_6
       rect:
         serializedVersion: 2
-        x: 365
-        y: 380
-        width: 292
-        height: 286
+        x: 40
+        y: 89
+        width: 294
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9c4b64abb0a0a4794bc97894f60c2d
-      internalID: -9149305
+      spriteID: 15c1db1bdb65871429d6944338cf5ca5
+      internalID: 69385737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Color Bomb_5
+      name: Play SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 700
-        y: 387
-        width: 284
-        height: 260
+        x: 368
+        y: 105
+        width: 289
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03671fcdda352184b9e8538691cf3256
-      internalID: 364760995
+      spriteID: 0d6c5c723cd0e0944a8b59581dfd216e
+      internalID: -650021466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Color Bomb_6
+      name: Play SpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 38
-        y: 59
-        width: 276
-        height: 262
+        x: 696
+        y: 110
+        width: 287
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,50 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a17046f109a5a9041951a314a3d96fbf
-      internalID: -1522477707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Color Bomb_7
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 59
-        width: 277
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16b10345dfa84e642a4ee0cfbacf46bd
-      internalID: -1937552927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Color Bomb_8
-      rect:
-        serializedVersion: 2
-        x: 707
-        y: 59
-        width: 277
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1e608ef6b9faff4b9ba27e1d670a2b2
-      internalID: 125244162
+      spriteID: 70365c770e767714c99defe990d581e5
+      internalID: -603898610
       vertices: []
       indices: 
       edges: []
@@ -296,15 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Color Bomb_0: 1589917318
-      Color Bomb_1: -276362134
-      Color Bomb_2: -1478510606
-      Color Bomb_3: 24714755
-      Color Bomb_4: -9149305
-      Color Bomb_5: 364760995
-      Color Bomb_6: -1522477707
-      Color Bomb_7: -1937552927
-      Color Bomb_8: 125244162
+      Play SpriteSheet_0: 282763263
+      Play SpriteSheet_1: 193225354
+      Play SpriteSheet_2: -1063898416
+      Play SpriteSheet_3: -1959895126
+      Play SpriteSheet_4: 1489236147
+      Play SpriteSheet_5: -1134017973
+      Play SpriteSheet_6: 69385737
+      Play SpriteSheet_7: -650021466
+      Play SpriteSheet_8: -603898610
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

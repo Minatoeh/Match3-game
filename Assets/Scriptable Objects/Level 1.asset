@@ -40,9 +40,9 @@ MonoBehaviour:
   scoreGoals: 640000009001000058020000
   endGameRequirements:
     gameType: 0
-    counterValue: 10
+    counterValue: 15
   levelGoals:
-  - numberNeeded: 20
+  - numberNeeded: 6
     numberCollected: 0
     goalSprite: {fileID: -222163700, guid: c8e7faea119719a43b71add1a3a72fa2, type: 3}
     matchValue: Fire Dot
