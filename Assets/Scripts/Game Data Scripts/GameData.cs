@@ -81,6 +81,22 @@ public class GameData : MonoBehaviour
         Save();
     }
 
+    public void MarkLevelCompleted(int levelIndex, int starsEarned)
+    {
+        if (saveData == null) return;
+
+        if (levelIndex < 0 || levelIndex >= saveData.isActive.Length)
+            return;
+
+        saveData.stars[levelIndex] = Mathf.Max(saveData.stars[levelIndex], starsEarned);
+
+        if (levelIndex + 1 < saveData.isActive.Length)
+            saveData.isActive[levelIndex + 1] = true;
+
+        Save(); 
+    }
+
+
     // Update is called once per frame
     void Update()
     {

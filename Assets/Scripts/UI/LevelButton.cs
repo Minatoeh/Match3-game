@@ -66,7 +66,7 @@ public class LevelButton : MonoBehaviour
     {
         if (isActive)
         {
-            buttonImage.sprite = activeSprite;
+               buttonImage.sprite = activeSprite;
             myButton.enabled = true;
             levelText.enabled = true;
         }
