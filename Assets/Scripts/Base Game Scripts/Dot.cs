@@ -40,6 +40,7 @@ public class Dot : MonoBehaviour
     public GameObject columnArrow;
     public GameObject colorBomb;
 
+    private Dot OtherDotComp => otherDot != null ? otherDot.GetComponent<Dot>() : null;
 
     // Use this for initialization
     void Start()
@@ -149,7 +150,7 @@ public class Dot : MonoBehaviour
     {
         anim.SetBool("Popped", true);
     }
-    public IEnumerator CheckMoveCo()
+    /*public IEnumerator CheckMoveCo()
     {
         if (isColorBomb)
         {
@@ -191,7 +192,83 @@ public class Dot : MonoBehaviour
             //otherDot = null;
         }
 
+    }*/
+
+    public IEnumerator CheckMoveCo()
+    {
+        if (isColorBomb && OtherDotComp != null)
+        {
+            findMatches.MatchPiecesOfColor(otherDot.tag);
+            isMatched = true;
+        }
+        else if (OtherDotComp != null && OtherDotComp.isColorBomb)
+        {
+            findMatches.MatchPiecesOfColor(this.gameObject.tag);
+            OtherDotComp.isMatched = true;
+        }
+        else if (isRowBomb)
+        {
+            findMatches.MarkDotMatched(column, row);   
+            findMatches.ClearRow(row);
+            isMatched = true;
+        }
+        else if (isColumnBomb)
+        {
+            findMatches.MarkDotMatched(column, row);   
+            findMatches.ClearColumn(column);
+            isMatched = true;
+        }
+        else if (isAdjacentBomb)
+        {
+            findMatches.MarkDotMatched(column, row);   
+            findMatches.ClearAdjacent(column, row);
+            isMatched = true;
+        }
+        else if (OtherDotComp != null && OtherDotComp.isRowBomb)
+        {
+            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row); 
+            findMatches.ClearRow(OtherDotComp.row);
+            OtherDotComp.isMatched = true;
+        }
+        else if (OtherDotComp != null && OtherDotComp.isColumnBomb)
+        {
+            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row); 
+            findMatches.ClearColumn(OtherDotComp.column);
+            OtherDotComp.isMatched = true;
+        }
+        else if (OtherDotComp != null && OtherDotComp.isAdjacentBomb)
+        {
+            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row);
+            findMatches.ClearAdjacent(OtherDotComp.column, OtherDotComp.row);
+            OtherDotComp.isMatched = true;
+        }
+
+
+        yield return new WaitForSeconds(.5f);
+
+        if (otherDot != null)
+        {
+            if (!isMatched && !OtherDotComp.isMatched)
+            {
+                OtherDotComp.row = row;
+                OtherDotComp.column = column;
+                row = previousRow;
+                column = previousColumn;
+                yield return new WaitForSeconds(.5f);
+                board.currentDot = null;
+                board.currentState = GameState.move;
+            }
+            else
+            {
+                if (endGameManager != null && endGameManager.requirements.gameType == GameType.Moves)
+                {
+                    endGameManager.DecreaseCounterValue();
+                }
+                board.DestroyMatches();
+            }
+        }
     }
+
 
     private void OnMouseDown()
     {

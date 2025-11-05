@@ -8,6 +8,7 @@ public class FindMatches : MonoBehaviour
 
     private Board board;
     public List<GameObject> currentMatches = new List<GameObject>();
+    public bool wasPowerClear = false;  
 
     // Use this for initialization
     void Start()
@@ -20,71 +21,30 @@ public class FindMatches : MonoBehaviour
         StartCoroutine(FindAllMatchesCo());
     }
 
-    private List<GameObject> IsAdjacentBomb(Dot dot1, Dot dot2, Dot dot3)
-    {
-        List<GameObject> currentDots = new List<GameObject>();
-        if (dot1.isAdjacentBomb)
-        {
-            currentMatches.Union(GetAdjacentPieces(dot1.column, dot1.row));
-        }
-
-        if (dot2.isAdjacentBomb)
-        {
-            currentMatches.Union(GetAdjacentPieces(dot2.column, dot2.row));
-        }
-
-        if (dot3.isAdjacentBomb)
-        {
-            currentMatches.Union(GetAdjacentPieces(dot3.column, dot3.row));
-        }
-        return currentDots;
-    }
-
     private List<GameObject> IsRowBomb(Dot dot1, Dot dot2, Dot dot3)
     {
-        List<GameObject> currentDots = new List<GameObject>();
-        if (dot1.isRowBomb)
-        {
-            currentMatches.Union(GetRowPieces(dot1.row));
-            board.BombRow(dot1.row);
-        }
-
-        if (dot2.isRowBomb)
-        {
-            currentMatches.Union(GetRowPieces(dot2.row));
-            board.BombRow(dot2.row);
-        }
-
-        if (dot3.isRowBomb)
-        {
-            currentMatches.Union(GetRowPieces(dot3.row));
-            board.BombRow(dot3.row);
-        }
-        return currentDots;
+        if (dot1.isRowBomb) ClearRow(dot1.row);
+        if (dot2.isRowBomb) ClearRow(dot2.row);
+        if (dot3.isRowBomb) ClearRow(dot3.row);
+        return currentMatches;
     }
 
     private List<GameObject> IsColumnBomb(Dot dot1, Dot dot2, Dot dot3)
     {
-        List<GameObject> currentDots = new List<GameObject>();
-        if (dot1.isColumnBomb)
-        {
-            currentMatches.Union(GetColumnPieces(dot1.column));
-            board.BombColumn(dot1.column);
-        }
-
-        if (dot2.isColumnBomb)
-        {
-            currentMatches.Union(GetColumnPieces(dot2.column));
-            board.BombColumn(dot2.column);
-        }
-
-        if (dot3.isColumnBomb)
-        {
-            currentMatches.Union(GetColumnPieces(dot3.column));
-            board.BombColumn(dot3.column);
-        }
-        return currentDots;
+        if (dot1.isColumnBomb) ClearColumn(dot1.column);
+        if (dot2.isColumnBomb) ClearColumn(dot2.column);
+        if (dot3.isColumnBomb) ClearColumn(dot3.column);
+        return currentMatches;
     }
+
+    private List<GameObject> IsAdjacentBomb(Dot dot1, Dot dot2, Dot dot3)
+    {
+        if (dot1.isAdjacentBomb) ClearAdjacent(dot1.column, dot1.row);
+        if (dot2.isAdjacentBomb) ClearAdjacent(dot2.column, dot2.row);
+        if (dot3.isAdjacentBomb) ClearAdjacent(dot3.column, dot3.row);
+        return currentMatches;
+    }
+
 
     private void AddToListAndMatch(GameObject dot)
     {
@@ -177,6 +137,7 @@ public class FindMatches : MonoBehaviour
 
     public void MatchPiecesOfColor(string color)
     {
+        wasPowerClear = true;
         for (int i = 0; i < board.width; i++)
         {
             for (int j = 0; j < board.height; j++)
@@ -218,42 +179,56 @@ public class FindMatches : MonoBehaviour
 
     List<GameObject> GetColumnPieces(int column)
     {
-        List<GameObject> dots = new List<GameObject>();
-        for (int i = 0; i < board.height; i++)
+        var dots = new List<GameObject>();
+        for (int y = 0; y < board.height; y++)
         {
-            if (board.allDots[column, i] != null)
-            {
-                Dot dot = board.allDots[column, i].GetComponent<Dot>();
-                if (dot.isRowBomb)
-                {
-                    dots.Union(GetRowPieces(i)).ToList();
-                }
+            var go = board.allDots[column, y];
+            if (go == null) continue;
 
-                dots.Add(board.allDots[column, i]);
-                dot.isMatched = true;
-            }
+            var d = go.GetComponent<Dot>();
+            if (d != null && d.isRowBomb)
+                AddDistinctToMatches(GetRowPieces(y));
+            dots.Add(go);
+            if (d != null) d.isMatched = true;
         }
         return dots;
     }
 
     List<GameObject> GetRowPieces(int row)
     {
-        List<GameObject> dots = new List<GameObject>();
-        for (int i = 0; i < board.width; i++)
+        var dots = new List<GameObject>();
+        for (int x = 0; x < board.width; x++)
         {
-            if (board.allDots[i, row] != null)
-            {
-                Dot dot = board.allDots[i, row].GetComponent<Dot>();
-                if (dot.isColumnBomb)
-                {
-                    dots.Union(GetColumnPieces(i)).ToList();
-                }
-                dots.Add(board.allDots[i, row]);
-                dot.isMatched = true;
-            }
+            var go = board.allDots[x, row];
+            if (go == null) continue;
+
+            var d = go.GetComponent<Dot>();
+            if (d != null && d.isColumnBomb)
+                AddDistinctToMatches(GetColumnPieces(x));
+
+            dots.Add(go);
+            if (d != null) d.isMatched = true;
         }
         return dots;
     }
+
+    public void MarkDotMatched(int x, int y)
+    {
+        if (x < 0 || x >= board.width || y < 0 || y >= board.height) return;
+        var go = board.allDots[x, y];
+        if (go == null) return;
+
+        AddDistinctToMatches(new[] { go });
+
+        var d = go.GetComponent<Dot>();
+        if (d != null)
+        {
+            d.isMatched = true;
+            d.isRowBomb = d.isColumnBomb = d.isAdjacentBomb = d.isColorBomb = false;
+        }
+    }
+
+
 
     public void CheckBombs(MatchType matchType)
     {
@@ -323,5 +298,68 @@ public class FindMatches : MonoBehaviour
 
         }
     }
+
+    private void AddDistinctToMatches(IEnumerable<GameObject> items)
+    {
+        foreach (var go in items)
+        {
+            if (go == null) continue;
+            if (!currentMatches.Contains(go))
+                currentMatches.Add(go);
+            var d = go.GetComponent<Dot>();
+            if (d != null) d.isMatched = true;
+        }
+    }
+
+
+    public void ClearRow(int row)
+    {
+        wasPowerClear = true;
+        if (row < 0 || row >= board.height) return;
+        var dots = new List<GameObject>();
+        for (int x = 0; x < board.width; x++)
+        {
+            var go = board.allDots[x, row];
+            if (go == null) continue;
+
+            var d = go.GetComponent<Dot>();
+            if (d != null && d.isColumnBomb)
+                AddDistinctToMatches(GetColumnPieces(x));
+
+            dots.Add(go);
+        }
+        AddDistinctToMatches(dots);
+
+        if (board != null) board.BombRow(row);
+    }
+
+    public void ClearColumn(int column)
+    {
+        wasPowerClear = true;
+        if (column < 0 || column >= board.width) return;
+        var dots = new List<GameObject>();
+        for (int y = 0; y < board.height; y++)
+        {
+            var go = board.allDots[column, y];
+            if (go == null) continue;
+
+            var d = go.GetComponent<Dot>();
+            if (d != null && d.isRowBomb)
+                AddDistinctToMatches(GetRowPieces(y));
+
+            dots.Add(go);
+        }
+        AddDistinctToMatches(dots);
+
+        if (board != null) board.BombColumn(column);
+    }
+
+    public void ClearAdjacent(int column, int row)
+    {
+        wasPowerClear = true;
+        var dots = GetAdjacentPieces(column, row);
+        AddDistinctToMatches(dots);
+    }
+
 
 }

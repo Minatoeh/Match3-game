@@ -397,44 +397,50 @@ public class Board : MonoBehaviour
 
     private void DestroyMatchesAt(int column, int row)
     {
-        if (allDots[column, row].GetComponent<Dot>().isMatched)
-        {
-            if (breakableTiles[column, row] != null)
-            {
-                breakableTiles[column, row].TakeDamage(1);
-                if (breakableTiles[column, row].hitPoints <= 0)
-                {
-                    breakableTiles[column, row] = null;
-                }
-            }
-            if (lockTiles[column, row] != null)
-            {
-                lockTiles[column, row].TakeDamage(1);
-                if (lockTiles[column, row].hitPoints <= 0)
-                {
-                    lockTiles[column, row] = null;
-                }
-            }
-            DamageConcrete(column, row);
-            DamageSlime(column, row);
-            if (goalManager != null)
-            {
-                goalManager.CompareGoal(allDots[column, row].tag.ToString());
-                goalManager.UpdateGoals();
-            }
-            if (soundManager != null)
-            {
-                soundManager.PlayRandomDestroyNoise();
-            }
-            GameObject particle = Instantiate(destroyParticle, allDots[column, row].transform.position, Quaternion.identity);
-            Destroy(particle, .5f);
-            allDots[column, row].GetComponent<Dot>().PopAnimation();
-            Destroy(allDots[column, row], .5f);
-            scoreManager.IncreasesScore(basePieceValue * streakValue);
-            lastClearedCount++;
+        GameObject go = allDots[column, row];
+        if (go == null) return;
+
+        Dot dot = go.GetComponent<Dot>();
+        if (dot == null)
+        {                 
+            Destroy(go);
             allDots[column, row] = null;
+            return;
         }
+
+        if (!dot.isMatched) return;        
+
+        if (breakableTiles[column, row] != null)
+        {
+            breakableTiles[column, row].TakeDamage(1);
+            if (breakableTiles[column, row].hitPoints <= 0)
+                breakableTiles[column, row] = null;
+        }
+        if (lockTiles[column, row] != null)
+        {
+            lockTiles[column, row].TakeDamage(1);
+            if (lockTiles[column, row].hitPoints <= 0)
+                lockTiles[column, row] = null;
+        }
+
+        DamageConcrete(column, row);
+        DamageSlime(column, row);
+
+        if (goalManager != null)
+        {
+            goalManager.CompareGoal(go.tag);
+            goalManager.UpdateGoals();
+        }
+
+        for (int i = go.transform.childCount - 1; i >= 0; i--)
+            Destroy(go.transform.GetChild(i).gameObject);
+
+        dot.isRowBomb = dot.isColumnBomb = dot.isAdjacentBomb = dot.isColorBomb = false;
+
+        Destroy(go);
+        allDots[column, row] = null;
     }
+
 
     public void DestroyMatches()
     {
@@ -442,6 +448,8 @@ public class Board : MonoBehaviour
         {
             CheckToMakeBombs();
         }
+        findMatches.wasPowerClear = false;
+
         findMatches.currentMatches.Clear();
         for (int i = 0; i < width; i++)
         {
