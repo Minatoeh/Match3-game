@@ -16,10 +16,10 @@ MonoBehaviour:
   height: 8
   boardLayout: []
   dots:
-  - {fileID: 1125818012369526729, guid: 4b10d1bc18c925048b87399ec48e26d6, type: 3}
-  - {fileID: 3683351542993671070, guid: 0632fff31a93d8944b56fc6bc884b0b0, type: 3}
-  - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
   - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
+  - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
+  - {fileID: 3130183179656700725, guid: f9ce8ad6cd32f20439fe972bfa4f8f64, type: 3}
+  - {fileID: 3683351542993671070, guid: 76de8bcf51b26d84a8bebe98ccfe004f, type: 3}
   scoreGoals: e803000088130000581b0000
   endGameRequirements:
     gameType: 0
@@ -27,5 +27,5 @@ MonoBehaviour:
   levelGoals:
   - numberNeeded: 6
     numberCollected: 6
-    goalSprite: {fileID: -1753193095, guid: 95c520d8f4de5d9428decb3db41cf0c7, type: 3}
+    goalSprite: {fileID: -1466091690, guid: b0eec99b59d97d14eab103d4f2002ce5, type: 3}
     matchValue: Sulfur Dot

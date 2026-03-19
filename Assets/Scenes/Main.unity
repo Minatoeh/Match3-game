@@ -2306,11 +2306,11 @@ MonoBehaviour:
   concreteTilePrefab: {fileID: 7157056610351134986, guid: 788ccb166d814814f90df420bf4359c4, type: 3}
   slimePiecePrefab: {fileID: 3504207161287070924, guid: 6b3f84efaa896f04299ae35f6f8a8bb8, type: 3}
   dots:
-  - {fileID: 3130183179656700725, guid: f9ce8ad6cd32f20439fe972bfa4f8f64, type: 3}
   - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
   - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
-  - {fileID: 3683351542993671070, guid: 0632fff31a93d8944b56fc6bc884b0b0, type: 3}
-  - {fileID: 1125818012369526729, guid: 4b10d1bc18c925048b87399ec48e26d6, type: 3}
+  - {fileID: 3130183179656700725, guid: f9ce8ad6cd32f20439fe972bfa4f8f64, type: 3}
+  - {fileID: 3683351542993671070, guid: 76de8bcf51b26d84a8bebe98ccfe004f, type: 3}
+  - {fileID: 3683351542993671070, guid: ac1af48d1c14fd9429272dc0e8519d14, type: 3}
   destroyParticle: {fileID: 8690148766875015416, guid: 838fd29c574eedd49ba31a0040bb6e74, type: 3}
   boardLayout: []
   matchType:
@@ -2795,15 +2795,15 @@ MonoBehaviour:
   levelGoals:
   - numberNeeded: 5
     numberCollected: 0
-    goalSprite: {fileID: 21300000, guid: 69480dd35876b034ba00671f9d147382, type: 3}
+    goalSprite: {fileID: -1466091690, guid: b0eec99b59d97d14eab103d4f2002ce5, type: 3}
     matchValue: Red Dot
   - numberNeeded: 5
     numberCollected: 0
-    goalSprite: {fileID: 21300000, guid: 4c6b53195204f1048ae8b72d0ee6367f, type: 3}
+    goalSprite: {fileID: 1825329361, guid: b0eec99b59d97d14eab103d4f2002ce5, type: 3}
     matchValue: Blue Dot
   - numberNeeded: 5
     numberCollected: 0
-    goalSprite: {fileID: 21300000, guid: bc95b40382748aa4282cdbbafd6572c2, type: 3}
+    goalSprite: {fileID: -1482410213, guid: b0eec99b59d97d14eab103d4f2002ce5, type: 3}
     matchValue: Yellow Dot
   currentGoals: []
   goalPrefab: {fileID: 3810865500425595705, guid: 7edd6b5863bc10f46b8bb0d2920af692, type: 3}
@@ -4102,6 +4102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMatches: []
+  wasPowerClear: 0
 --- !u!1 &1897221406
 GameObject:
   m_ObjectHideFlags: 0

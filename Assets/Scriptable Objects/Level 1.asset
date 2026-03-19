@@ -34,9 +34,9 @@ MonoBehaviour:
     y: 6
     tileKind: 1
   dots:
-  - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
-  - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
+  - {fileID: 3130183179656700725, guid: f9ce8ad6cd32f20439fe972bfa4f8f64, type: 3}
   - {fileID: 3683351542993671070, guid: 76de8bcf51b26d84a8bebe98ccfe004f, type: 3}
+  - {fileID: 3683351542993671070, guid: ac1af48d1c14fd9429272dc0e8519d14, type: 3}
   scoreGoals: 640000009001000058020000
   endGameRequirements:
     gameType: 0
@@ -44,5 +44,5 @@ MonoBehaviour:
   levelGoals:
   - numberNeeded: 6
     numberCollected: 0
-    goalSprite: {fileID: -222163700, guid: c8e7faea119719a43b71add1a3a72fa2, type: 3}
+    goalSprite: {fileID: -1466091690, guid: b0eec99b59d97d14eab103d4f2002ce5, type: 3}
     matchValue: Fire Dot
