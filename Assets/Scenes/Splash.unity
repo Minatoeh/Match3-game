@@ -178,8 +178,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 771817520}
   - {fileID: 121677870}
@@ -489,8 +489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 518991878}
   - {fileID: 1822761212}
@@ -2597,8 +2597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 793429256}
   - {fileID: 989586631}
@@ -2832,8 +2832,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 921625805}
   - {fileID: 588364767}
@@ -2991,8 +2991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 982616434}
   - {fileID: 348366343}
@@ -3360,8 +3360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 412272858}
   - {fileID: 2142190956}
@@ -3572,10 +3572,10 @@ RectTransform:
   - {fileID: 2011752379}
   m_Father: {fileID: 1669399100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.072000004, y: 0.62924796}
-  m_AnchorMax: {x: 0.86800003, y: 0.8517438}
-  m_AnchoredPosition: {x: -0.16699219, y: -3.5326538}
-  m_SizeDelta: {x: 9.609894, y: 7.0654}
+  m_AnchorMin: {x: 0.16800001, y: 0.62924796}
+  m_AnchorMax: {x: 0.726, y: 1}
+  m_AnchoredPosition: {x: 20, y: -19}
+  m_SizeDelta: {x: 8.9599, y: -83.7992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291460579
 MonoBehaviour:
@@ -3597,7 +3597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d4ddf99d931a66f4bb2142b5cb092357, type: 3}
+  m_Sprite: {fileID: 2105358947, guid: 0ef5466a390700f42b5afb8407b45704, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4049,8 +4049,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1973504482}
   - {fileID: 1353486280}
@@ -4360,8 +4360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 429417738}
   - {fileID: 1130954927}
@@ -4636,7 +4636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -29.045532}
+  m_AnchoredPosition: {x: 0, y: -29.044922}
   m_SizeDelta: {x: -8.2989, y: -76.7632}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409567678
@@ -4806,10 +4806,10 @@ RectTransform:
   - {fileID: 918785497}
   m_Father: {fileID: 691989392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.564, y: 0}
-  m_AnchoredPosition: {x: -7.8514, y: -19.3}
-  m_SizeDelta: {x: 239.2182, y: 168.9492}
+  m_AnchorMin: {x: 0.37, y: 0}
+  m_AnchorMax: {x: 0.37, y: 0}
+  m_AnchoredPosition: {x: 90.26772, y: 4.6608887}
+  m_SizeDelta: {x: 189.4095, y: 105.5509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &415145182
 MonoBehaviour:
@@ -4895,7 +4895,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &415145184
 CanvasRenderer:
@@ -5547,8 +5547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1049452353}
   - {fileID: 450573391}
@@ -5838,7 +5838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.17589875}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 8.900024, y: 88.653015}
+  m_AnchoredPosition: {x: 8.900391, y: 88.65332}
   m_SizeDelta: {x: 57.55081, y: 177.30621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511666347
@@ -6313,8 +6313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 1
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: -214174318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1762817095}
   - {fileID: 1391445572}
@@ -6813,8 +6813,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1403169019}
   - {fileID: 67421907}
@@ -6951,8 +6951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 138.46, y: -397.62222}
-  m_SizeDelta: {x: 122.7646, y: 137.2874}
+  m_AnchoredPosition: {x: 120.9, y: -345}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624549519
 MonoBehaviour:
@@ -7030,9 +7030,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 083b98934e84c504f8bb0c96f17c2e32, type: 3}
+  m_Sprite: {fileID: 984123234, guid: 083b98934e84c504f8bb0c96f17c2e32, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -8073,8 +8073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1367477020}
   - {fileID: 167123850}
@@ -8953,8 +8953,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 2099320085}
   - {fileID: 1364934084}
@@ -9112,8 +9112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 665229343}
   - {fileID: 1853385455}
@@ -9400,7 +9400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.38046524, y: 0.034235667}
   m_AnchorMax: {x: 0.94380236, y: 0.41711885}
-  m_AnchoredPosition: {x: -188, y: 55.248}
+  m_AnchoredPosition: {x: -188, y: 55.248047}
   m_SizeDelta: {x: -5.9395, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882951069
@@ -10856,8 +10856,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1931899772}
   - {fileID: 990325322}
@@ -11288,8 +11288,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 1
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1780689912}
   - {fileID: 1119439646}
@@ -11823,8 +11823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1263850284}
   - {fileID: 889626340}
@@ -12661,8 +12661,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1909083211}
   - {fileID: 2131821656}
@@ -12879,7 +12879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.097, y: 0.13969658}
   m_AnchorMax: {x: 0.93700004, y: 0.93553567}
-  m_AnchoredPosition: {x: -2.275879, y: -2.4918213}
+  m_AnchoredPosition: {x: -2.2753754, y: -2.4921875}
   m_SizeDelta: {x: -1.9126968, y: -0.9745941}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170933395
@@ -13780,8 +13780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -130}
-  m_SizeDelta: {x: 256, y: 256}
+  m_AnchoredPosition: {x: 16.5, y: -242.5}
+  m_SizeDelta: {x: 433.0417, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1222515118
 Animator:
@@ -13880,7 +13880,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 282763263, guid: 5eb9e954e5670844885c326b84b4c83e, type: 3}
+  m_Sprite: {fileID: -1465122743, guid: 76439c80038e5554ba9c651b536f2224, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14727,8 +14727,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 147816641}
   - {fileID: 1513968262}
@@ -14886,8 +14886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1133502949}
   - {fileID: 436593104}
@@ -15464,8 +15464,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 1
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 869967088}
   - {fileID: 1676853370}
@@ -16151,8 +16151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1447873153}
   - {fileID: 1340914250}
@@ -17539,7 +17539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.38046524, y: 0.034235667}
   m_AnchorMax: {x: 0.94380236, y: 0.41711885}
-  m_AnchoredPosition: {x: 36.524, y: 55.248}
+  m_AnchoredPosition: {x: 36.523926, y: 55.248047}
   m_SizeDelta: {x: -73.048, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506831690
@@ -17825,8 +17825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -237.19, y: -399.15295}
-  m_SizeDelta: {x: 127.1485, y: 134.2355}
+  m_AnchoredPosition: {x: -172.1, y: -342.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1553910802
 MonoBehaviour:
@@ -17904,9 +17904,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eda1cc06c36a1f94ba9ffcb4fd8d0aac, type: 3}
+  m_Sprite: {fileID: -1461335492, guid: eda1cc06c36a1f94ba9ffcb4fd8d0aac, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -18679,7 +18679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1669399100
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21140,8 +21140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1193620974}
   - {fileID: 1187027920}
@@ -21887,8 +21887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1887289536}
   - {fileID: 1951168450}
@@ -22271,8 +22271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 121243825, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
-  lockedSprite: {fileID: 1449527318, guid: 448d6695c2f8d0b4ea8763afae53b7ab, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 644945237}
   - {fileID: 499023630}
@@ -22565,7 +22565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Match 3!
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22698,8 +22698,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1028662303}
   - {fileID: 1381443929}
@@ -23008,8 +23008,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isActive: 0
-  activeSprite: {fileID: 21300000, guid: 5adb581a7fd23624b95f5c7ab350e3cd, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 4e29dd0683a6d9b4b8ee952e1eafe77f, type: 3}
+  activeSprite: {fileID: -800839557, guid: 36ddc1f5472108d41aa0fee46b294124, type: 3}
+  lockedSprite: {fileID: 21300000, guid: 8aa96e927f7f44141a234dccfd474c6e, type: 3}
   stars:
   - {fileID: 1862621108}
   - {fileID: 811853193}
