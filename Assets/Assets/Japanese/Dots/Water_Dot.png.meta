@@ -1,0 +1,2314 @@
+fileFormatVersion: 2
+guid: 14ac000b12c922b4e8c599ab2491a076
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water_Dot_0
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1304
+        width: 198
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64d3c855f6b43f468e1fe7479e022b7
+      internalID: 73097536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_1
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1305
+        width: 197
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e433f141082924099bb3b629cbfb83
+      internalID: 434087524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_2
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1305
+        width: 197
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab8558a48d076a45a2b756367a8e9d6
+      internalID: 1351518279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_3
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1305
+        width: 197
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c067fc6f2b9c20544830eb7a88433b59
+      internalID: 1003715618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1006
+        width: 197
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93881398231cd7c4d81fc99df3ac9bfc
+      internalID: 838357521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_5
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 994
+        width: 218
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686cb0c64a0a05b419e563d7c3607990
+      internalID: 1184807403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_6
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 970
+        width: 223
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a211f8a3a233a0d44a9ad32cf4d9ab37
+      internalID: -437218029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_7
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1003
+        width: 232
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eec6c3d81bba349bc0700c4a2f0c67
+      internalID: 867296173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_8
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 958
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436fbb2b177559b49b0b43d9f9569120
+      internalID: 2079817559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_9
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 957
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae5e839af9c67d439d8da15cdbe65de
+      internalID: -268729250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_10
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 958
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13b1557da42564888fa42142604a49
+      internalID: -207709354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_11
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 953
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54703095bf168647b7b11684473dff7
+      internalID: 2012310552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 701
+        width: 196
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6430fc489a3dfcb4f877c7b6dcaceba3
+      internalID: 881836969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 944
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87fbd3ede2c1948bb28f85a49356a8
+      internalID: -92536348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_14
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 704
+        width: 205
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d782c9474296754a98904e296e6a544
+      internalID: 135313671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_15
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 935
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644deac8fd16486438f5e6fa5048e8a9
+      internalID: -292770941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_16
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 947
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f109f7bc13317418319e8431d90445
+      internalID: 679131361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_17
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 941
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05c0857bdcdeda42979cb6ee30ff8c5
+      internalID: -746701370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 947
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa42425485393849bc8940209e2c8da
+      internalID: 2053484432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_19
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 890
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb1e6e19812f79468b436a42d72b35c
+      internalID: -988933401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_20
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 924
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d986ac833dadaf4e89052e3c5f2d65e
+      internalID: 1952165166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_21
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 706
+        width: 208
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fa7683416e60848b2210576afb0393
+      internalID: 2074450626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_22
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 939
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6f48faaf7501c4e906efd16d5b58f3
+      internalID: 357295038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_23
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1f91b897bf07a45820ab3e65fe7a15
+      internalID: -949539864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_24
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 938
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e9803f73261ad41964c44c5a5f8867
+      internalID: 747818561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_25
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 935
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a4e2ef3bc12c6468b057e1a5d0e9e1
+      internalID: 1959392690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 942
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc25ecd51f89337408236571b4461ad6
+      internalID: 599954430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_27
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 921
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346c2876cd4a054497676df16d98077
+      internalID: -730700553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_28
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 930
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2de77d0b368533479fa51892ede02bb
+      internalID: 315877269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_29
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 910
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d448ccf07729d2f4581dcfad2d9de51f
+      internalID: 1372653429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_30
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 928
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc6ce0645a022e4e905242c4c243cf4
+      internalID: -1933943720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_31
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 912
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997fc9b62c561464285e3d983a0bc970
+      internalID: 1108149030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_32
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 910
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d034e4bf01b084baae929639687c47
+      internalID: -43074504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_33
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 895
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be299c8410670d4d8b96cc7c6045e88
+      internalID: -1728046422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_34
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 906
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c63892f378c56c4aa3eeebe541a8e1b
+      internalID: 487528741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_35
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 816
+        width: 29
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d474dffe068c64947b8a83f6a01779e8
+      internalID: -807223216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_36
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 900
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fc28f5edb134044be6b5505f3f59a1
+      internalID: -457518969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_37
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 896
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b44459aef9a884588b6d6c1c292e9e
+      internalID: 353491751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_38
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 874
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2a00312c83beb4e96e028c74af3d62
+      internalID: -1966167582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_39
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 893
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9b1fb92c417df4fb3a2bad17f382c3
+      internalID: -864811603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_40
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 893
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48486f16c30ddb45b8287b9e0e80bc2
+      internalID: -1477991730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_41
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 873
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc619ccceff196742b18983f2a10f9af
+      internalID: -131751731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_42
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 862
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacb5f43079533949b255338cfbd9044
+      internalID: 1211127838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_43
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 881
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ef5cf16b066d48b599082634f94a6
+      internalID: 92323686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_44
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 883
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecc310b1b3227c48beb159b903c3e0a
+      internalID: 295093890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_45
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 874
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32510fee560b2f4a8226c1056faf619
+      internalID: -161916478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_46
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 881
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21702830f4711514e85636d5855d10d1
+      internalID: -593496965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_47
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 867
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c10119ba50f94142930ef07f32e1cf3
+      internalID: 2111105761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_48
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 870
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ae9f9924cb1824e84941508ef0e990
+      internalID: 954332115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_49
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 877
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340bfa9cd35fa354990376cb735c2322
+      internalID: -888691016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_50
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 873
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82c8cf274d920a4e9351b3b637ea4ce
+      internalID: 617921812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_51
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 874
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59fff35ac233e848a774b087be380e7
+      internalID: -2050251374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_52
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 815
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511ff942cf60edc4287f5a702043a422
+      internalID: 253640333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_53
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 867
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07447671e7d0e142b4cae368d40e94a
+      internalID: -72453065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_54
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 873
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d8871e4984b2b489e0a97eafa6efb8
+      internalID: 219026047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_55
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 867
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b265484e5edf3304ab96a8c7a739135f
+      internalID: 1288963938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_56
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 828
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80597b1bc56d26948958576ed7ce011b
+      internalID: -377109647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_57
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 863
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05788ec43d6cfa545a536564a6eb59ef
+      internalID: -1300271952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_58
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 856
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0a860a402bc8a4d935429a9da124d5
+      internalID: -411125829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_59
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 858
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74274de175da7684b8d70320c493e5c6
+      internalID: -1557332825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_60
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 842
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aacf072c3533f4ab9b865a2e78d7a2
+      internalID: 1809322185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_61
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 849
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e977b8765a99dd24cbe3df7ad8d24cb0
+      internalID: -238478286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_62
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 827
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ab7bf1ea82f054a9ddaab6c9c3039c
+      internalID: 130082110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_63
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 841
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e73618271fc6046b9d91c05b9a8a54
+      internalID: -1724766725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_64
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 842
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744249ef60f13f1488edb6ecfb1f954b
+      internalID: -429695102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_65
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 830
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34951a77997da6547ad9d95370eadbc1
+      internalID: 1528811594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_66
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 838
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea030f7bfa5dceb47ab73eb1aad11895
+      internalID: 1376569008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_67
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 831
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaa4432bddaa69468410a6224386ad1
+      internalID: -1039876488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_68
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 827
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39344791ecc2a394883acac8c132e649
+      internalID: 40530837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_69
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 823
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330312430ffd2654dbaf0d65524a1ff6
+      internalID: 1457455083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_70
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 824
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1910006d968f69a478aa026c5df380c0
+      internalID: 1051633938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_71
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 825
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8c35955b4881349801ffd339c00e9b
+      internalID: -1405472637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_72
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 829
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568f35c4221dd2d4b954374be6d82651
+      internalID: 453031394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_73
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 723
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f1456bee89d9042be7f46a6aa664bb
+      internalID: 1860316898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_74
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 823
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422aa82c45b79b0438c516399e8825af
+      internalID: 521306190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_75
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 806
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8fcd7f77cb8ce418f5ad36b8cb3431
+      internalID: 1672168360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_76
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 793
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cda126443bbe9c4393bbf07d75d2b7b
+      internalID: 217846474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_77
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 809
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb930f6218174546ac45ad7d49abd75
+      internalID: -1872292769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_78
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 805
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc0d3a4ecfe14d4e95cdf28ad56d419
+      internalID: -158893374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_79
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 801
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a88352c3e450934e97bf069b97195c2
+      internalID: -410204933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_80
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 792
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248afdb03b0d44544bc7958b8663388f
+      internalID: 1132725637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_81
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 797
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2228b9da801bb464ea15cbeebefbd68d
+      internalID: 103736255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_82
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 773
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf5f865041935447833af3dbbab0941
+      internalID: -305051911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_83
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 773
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6818b2b76c7aa040989fb7219af0a40
+      internalID: -1239223585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_84
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 770
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce58ebbe93a3313428f70f3327132e5e
+      internalID: 741308373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_85
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 764
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f5d6009f66d444198359f162b824b9
+      internalID: -251724342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_86
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 765
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6464338e7889644b757927bf2c872b
+      internalID: -257426661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_87
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 748
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fbb998c5aa5bf419975a4b92225692
+      internalID: 1388063729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_88
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 732
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12e40537a244974aab3120322cf4803
+      internalID: -25596285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_89
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 752
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3786845992504c24ebf92c8b34ecbf81
+      internalID: -1477857861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_90
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 736
+        width: 71
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1fbebd28209834a8d2776019c482bd
+      internalID: 696510213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_91
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 738
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a1976cc82b424aa27d862101739cd
+      internalID: -1853730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_92
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 739
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0817295d6720b9846b552b08f93feac5
+      internalID: 593525431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_93
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 735
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30079af29e153db4b832404e5df74f9c
+      internalID: 1742818316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_94
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 697
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11155e37cbb6364fadd0317baea29bd
+      internalID: 95887953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_95
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 731
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ee8c3ad4170ad468f62fae94ac3407
+      internalID: -661714310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_96
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 726
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be581ffd9106d44e97d61953eb18a47
+      internalID: -1818514458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_97
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 693
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9740a97180d1142851a756557d263b
+      internalID: -1002892555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_98
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 693
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d42f97466bc39409ca7f45f7214ed0
+      internalID: -1058134933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Dot_99
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 693
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a227069be19cc47bd571d778ee726f
+      internalID: 41338399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Water_Dot_0: 73097536
+      Water_Dot_1: 434087524
+      Water_Dot_10: -207709354
+      Water_Dot_11: 2012310552
+      Water_Dot_12: 881836969
+      Water_Dot_13: -92536348
+      Water_Dot_14: 135313671
+      Water_Dot_15: -292770941
+      Water_Dot_16: 679131361
+      Water_Dot_17: -746701370
+      Water_Dot_18: 2053484432
+      Water_Dot_19: -988933401
+      Water_Dot_2: 1351518279
+      Water_Dot_20: 1952165166
+      Water_Dot_21: 2074450626
+      Water_Dot_22: 357295038
+      Water_Dot_23: -949539864
+      Water_Dot_24: 747818561
+      Water_Dot_25: 1959392690
+      Water_Dot_26: 599954430
+      Water_Dot_27: -730700553
+      Water_Dot_28: 315877269
+      Water_Dot_29: 1372653429
+      Water_Dot_3: 1003715618
+      Water_Dot_30: -1933943720
+      Water_Dot_31: 1108149030
+      Water_Dot_32: -43074504
+      Water_Dot_33: -1728046422
+      Water_Dot_34: 487528741
+      Water_Dot_35: -807223216
+      Water_Dot_36: -457518969
+      Water_Dot_37: 353491751
+      Water_Dot_38: -1966167582
+      Water_Dot_39: -864811603
+      Water_Dot_4: 838357521
+      Water_Dot_40: -1477991730
+      Water_Dot_41: -131751731
+      Water_Dot_42: 1211127838
+      Water_Dot_43: 92323686
+      Water_Dot_44: 295093890
+      Water_Dot_45: -161916478
+      Water_Dot_46: -593496965
+      Water_Dot_47: 2111105761
+      Water_Dot_48: 954332115
+      Water_Dot_49: -888691016
+      Water_Dot_5: 1184807403
+      Water_Dot_50: 617921812
+      Water_Dot_51: -2050251374
+      Water_Dot_52: 253640333
+      Water_Dot_53: -72453065
+      Water_Dot_54: 219026047
+      Water_Dot_55: 1288963938
+      Water_Dot_56: -377109647
+      Water_Dot_57: -1300271952
+      Water_Dot_58: -411125829
+      Water_Dot_59: -1557332825
+      Water_Dot_6: -437218029
+      Water_Dot_60: 1809322185
+      Water_Dot_61: -238478286
+      Water_Dot_62: 130082110
+      Water_Dot_63: -1724766725
+      Water_Dot_64: -429695102
+      Water_Dot_65: 1528811594
+      Water_Dot_66: 1376569008
+      Water_Dot_67: -1039876488
+      Water_Dot_68: 40530837
+      Water_Dot_69: 1457455083
+      Water_Dot_7: 867296173
+      Water_Dot_70: 1051633938
+      Water_Dot_71: -1405472637
+      Water_Dot_72: 453031394
+      Water_Dot_73: 1860316898
+      Water_Dot_74: 521306190
+      Water_Dot_75: 1672168360
+      Water_Dot_76: 217846474
+      Water_Dot_77: -1872292769
+      Water_Dot_78: -158893374
+      Water_Dot_79: -410204933
+      Water_Dot_8: 2079817559
+      Water_Dot_80: 1132725637
+      Water_Dot_81: 103736255
+      Water_Dot_82: -305051911
+      Water_Dot_83: -1239223585
+      Water_Dot_84: 741308373
+      Water_Dot_85: -251724342
+      Water_Dot_86: -257426661
+      Water_Dot_87: 1388063729
+      Water_Dot_88: -25596285
+      Water_Dot_89: -1477857861
+      Water_Dot_9: -268729250
+      Water_Dot_90: 696510213
+      Water_Dot_91: -1853730
+      Water_Dot_92: 593525431
+      Water_Dot_93: 1742818316
+      Water_Dot_94: 95887953
+      Water_Dot_95: -661714310
+      Water_Dot_96: -1818514458
+      Water_Dot_97: -1002892555
+      Water_Dot_98: -1058134933
+      Water_Dot_99: 41338399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

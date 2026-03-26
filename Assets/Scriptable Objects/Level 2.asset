@@ -27,5 +27,5 @@ MonoBehaviour:
   levelGoals:
   - numberNeeded: 6
     numberCollected: 6
-    goalSprite: {fileID: -1753193095, guid: 95c520d8f4de5d9428decb3db41cf0c7, type: 3}
+    goalSprite: {fileID: 1028807299, guid: 35c4a0b950209e24286131ed637d0c79, type: 3}
     matchValue: Sulfur Dot

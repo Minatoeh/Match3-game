@@ -1,0 +1,3436 @@
+fileFormatVersion: 2
+guid: 60b42ddf1b11105408d65d3b19ed4921
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Dot_Few_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1267
+        width: 252
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171c4c22111b4174f87992fa1264e3d7
+      internalID: 1954562486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1267
+        width: 252
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bcd1cfaa56979468fa29138e66f666
+      internalID: 1739720709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_2
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1267
+        width: 251
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae6050b55e64c419c5271d44b56228
+      internalID: -782058116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_3
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1267
+        width: 251
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1a922be85edb4b9bc1a5df8b8cf8e
+      internalID: 1190555921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 522
+        width: 365
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7335db80c9611043a919ace6736dfe1
+      internalID: 2129818456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 926
+        width: 269
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa64b6af70591eb40b3da182d3b347c1
+      internalID: -1640254103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_6
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 909
+        width: 286
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5541f4cbeb973b6409f3d2a9fab9e74b
+      internalID: 858899768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 923
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5768360f0f5244ab5bf6a690e770b7
+      internalID: 872696227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_8
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 901
+        width: 300
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1291dbddc6fd1a6409d8e4f6ee290917
+      internalID: -1668601641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 722
+        width: 308
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6e56288530b6d4ba4e9519b0857391
+      internalID: 1987078775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 908
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab9d4a6de4b83746999fc58d3d34072
+      internalID: 333194687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 903
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a669a08457469748bb3652777c9eb91
+      internalID: 543581198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_12
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 907
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4379118670e49468b6bb840710f657
+      internalID: -2105288056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_13
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 903
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7741fcafaff121c498011c46090dd6c8
+      internalID: -784951884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_14
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 884
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a5eac6eaf39b74888a96038966250d
+      internalID: -431884356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_15
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 902
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a89b343d6b3d249a4a900d216a5467
+      internalID: 1036869398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_16
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 901
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed720bd6ab99154590611ac601cf09a
+      internalID: -1145685392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_17
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 545
+        width: 317
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed5f123d7968d64f80896b1ec7f9a42
+      internalID: -1637202130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 899
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabf6239b383ddf4591eed2b5cad9208
+      internalID: 61512598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 903
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb67d05ae595b644faeb31483349cd79
+      internalID: -303392014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_20
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 899
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6afb02f2ed13d4ea23d5a5d8e23821
+      internalID: -1451788027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_21
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 546
+        width: 332
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d85944e1059bb459c12b7efa8c0513
+      internalID: -120517327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_22
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 895
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cc523eca660f647a839cf17547c630
+      internalID: -1375112242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_23
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 891
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0d71fe54771b4a8b531a98389f716
+      internalID: 635402280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_24
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 896
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c220993eed2f42a7282992cbeaa73
+      internalID: 1449224366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_25
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 895
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12529cd6e7b949a48890cfdafd7ac128
+      internalID: 32900204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_26
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 881
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b190a5d19b6adcb4fae106ca27acd5b4
+      internalID: -1314170241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_27
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 872
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b62c29890a0a843a303a6d8eb4a44a
+      internalID: 1215378084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_28
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 885
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8f1b8d523087841952c12b39a523e4
+      internalID: -2135998077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_29
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 886
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96479c7791e760e429f4ec7161b54622
+      internalID: 1345832288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_30
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 877
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9425e54410bcd1a4a94138ab02656ae6
+      internalID: -1852239354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_31
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 863
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9476dc83b27d4a14b93c0657892fdb14
+      internalID: 584708193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_32
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 859
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7faa6429e4d1fe45a4f3f02405488aa
+      internalID: 1498124330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_33
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 856
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f293ee83f2849064ead501a0ce018b7c
+      internalID: -352557146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_34
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 865
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fdf36c9f40dd14a9f2e33360c90e15
+      internalID: 571781135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_35
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 848
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1876165aef964d45a87334e8816c13f
+      internalID: -376703731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_36
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 850
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b111a192a04622a429788bd359f3380f
+      internalID: 930163442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_37
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 841
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bddb58288b8ee4a97d5b1dcdb09533
+      internalID: 1240996674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_38
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 848
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cac1a22b7c6f443a0246c1e78dcb96
+      internalID: 1020169715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_39
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 826
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79f8ee9a21ea5d4891c79929285f7c3
+      internalID: -1702659831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_40
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 815
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd61b3744a6e9148ba514d40523bea7
+      internalID: 1088150302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_41
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 826
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37b42e782825c040a0d34155342a892
+      internalID: 1252130188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_42
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 819
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e0e67cd79facf4cac8842adb4d6fea
+      internalID: 945138775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_43
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 830
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a348b74a445a1a44787268b8a5c8759d
+      internalID: 992007103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_44
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 825
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5e66b4b2aece946a3893f52cb9b99d
+      internalID: 441130312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_45
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 821
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d967c5530d0b44d8cef07e4a4cb086
+      internalID: -905458094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_46
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 809
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d6c1a2859b27a4db1602f9961fcfa3
+      internalID: -1515753175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_47
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 802
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1213e5cfc0a944bbbd1bcef60b00e0
+      internalID: -1702728607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_48
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 808
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af490f2b19cbe8c409b06bcab6b8f9d5
+      internalID: 81917952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_49
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 805
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f7b8b1e1be7ca4faee7ea4a1d098d2
+      internalID: -1699396691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_50
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 806
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fefef685ab14244997935c114eae28
+      internalID: 1724915813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_51
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 798
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3bccf8f770e9041b9b26818c35e4c7
+      internalID: -1294003725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_52
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 789
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac119568e778244cae1cf61a78a9aaf
+      internalID: -174287043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_53
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 798
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af538564bb7f34e82d02dedb23fa1b
+      internalID: 1673787759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_54
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 799
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b913399590734c84bb6695bcb863dad7
+      internalID: -495577430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_55
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 759
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0189e2f598211a145b149d7e1ee45f07
+      internalID: -2020917487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_56
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 786
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcc1ce20e2472a4ea4170f846d053c2
+      internalID: -1037156493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_57
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 790
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e483e7d832bda247841c46213b1540b
+      internalID: 325186709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_58
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 785
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8446caf5b20027046be38a822b54cb0b
+      internalID: 625834351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_59
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 792
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d4bc12ae82f7342a8ce273af0cad7c
+      internalID: -1649282435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_60
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 782
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e11fb47a1ac07469af722a4de4478d
+      internalID: -1945857847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_61
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 771
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738553f292d8ecb4693ff42f978beacc
+      internalID: 961266437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_62
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 778
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d411bbf9607f3af4fb059f0d99139883
+      internalID: -1609332363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_63
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 784
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83956d67b289dd438089925456acecc
+      internalID: 184343279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_64
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 773
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a0cdf870cd86a4da0afc0e20007d00
+      internalID: -210573118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_65
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 758
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a248a0b63ae62d4594d3cc496939e83
+      internalID: -129695957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_66
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 761
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5afadd02df59a4bab09dc8f5993d1e
+      internalID: -1640836555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_67
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 772
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc575625add4d9e4a9cec30df94fa1be
+      internalID: 37599286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_68
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 764
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a6e69387583844cb732f58e3b381aa
+      internalID: 1188284742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_69
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 755
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a24b51b487694ea5bbbb7cf4f139c
+      internalID: -183771081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_70
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 770
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c6afabb678db24db807cd7ac9e63cb
+      internalID: -736763533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_71
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 772
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf765f4229f2174387c66167a6abc90
+      internalID: -1603295114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_72
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 759
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ecfedaf7f3c14a9e3da2d903086c4
+      internalID: 674649194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_73
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 764
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1a44f551ae7df42b78afda7b51378d
+      internalID: 599880554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_74
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 757
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12235696ac2781e4cbac12948a0dfe75
+      internalID: 570771699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_75
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 760
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93291d8c76a75cc4fb18b7c232b055ab
+      internalID: -1704846654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_76
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 766
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8173d3c68fb0c540a1aa1050558c347
+      internalID: 493625783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_77
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 721
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc95337e9e06fe4dbbcda16b7dfb2f1
+      internalID: 2126770320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_78
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 721
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c36ea6b8508154693c4b9b06ad3c9a
+      internalID: -1778404721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_79
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 748
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508f976beb19fc444be8b978bf81d27c
+      internalID: 707578592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_80
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 745
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbf6d4e81ae00e4d98f7d38cb840dd5
+      internalID: -1047127477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_81
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 744
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c8ceeb7e8ccc444908321522c63475
+      internalID: 995398987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_82
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 745
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373a3c73edd8dac4ebd6215cb5beba44
+      internalID: -74129260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_83
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 735
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13869b521a027144cb8c51482c41a86d
+      internalID: -711477998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_84
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 739
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d368be16d094d244f89879573cfa94e5
+      internalID: 1571748812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_85
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 735
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf4b10980a0e44189bfab3d551ef1c
+      internalID: -1739486428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_86
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 733
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e358acca8f106c4e9558b808b6c3e29
+      internalID: 1967285189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_87
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 736
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9aff357b97eb6449a6da0bf8b061dee
+      internalID: -297892350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_88
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 727
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901d4638817712543915e20d3af56ef3
+      internalID: -2024008975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_89
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 731
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea37666d75dc73444bc22b6c76f16c16
+      internalID: 1628619906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_90
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 730
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e67497af10355429ef9dd81c8b8e17
+      internalID: 577004465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_91
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 734
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03e9226b036cba419f9383e69f17690
+      internalID: -1952160199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_92
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 721
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac82d904d480fb42ba83e03cc0a8493
+      internalID: 1872640771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_93
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 719
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b72e1174046cd4896260421e2798f2
+      internalID: 582898087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_94
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 704
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d5e165a54fbbf4092d4d6ab124f931
+      internalID: -1918081384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_95
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 713
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e307b399095ecfe4d8b8dd55c8e285d7
+      internalID: -88425701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_96
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b45b408ad598a84689172f6607c5dee
+      internalID: -1534720969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_97
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 716
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96abab71d9784b41b75f6ebf8b6d16c
+      internalID: 1205323665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_98
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 706
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e5fe08c3ad294449e6e811ae5cc997
+      internalID: 1839709170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_99
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 696
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a85a14d21bf445bb288eb9f5bb07f
+      internalID: -2136798276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_100
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 708
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c305253add9891d42890ec43321ecc69
+      internalID: -1129778512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_101
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 698
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e717e8d48c52c5459e0bf1a81611066
+      internalID: 1324867663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_102
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 678
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dcaa78f51174c4caf45592da71fe85
+      internalID: 494592009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_103
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 685
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505b53351dbd0b34595e2c38e7b1e376
+      internalID: 37193343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_104
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 699
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c40f7e59a40d4d991407428e852c6
+      internalID: -633051360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_105
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 686
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf861793a432d84895e5f5ae695d6fb
+      internalID: 135765814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_106
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 694
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464f3223036cb84469b706f9dd31c9c5
+      internalID: 822391431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_107
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 707
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e940fb2fcad479c458b336f0c902ff9c
+      internalID: -1593770777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_108
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 694
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4274cbe4a08444a0dd39cdf27a25e
+      internalID: 700850392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_109
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 691
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a9458072db074eb812890b5cf9828
+      internalID: -952670343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_110
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 675
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fc4fbbc8fa1674dbb2fed5f777b0e1
+      internalID: -393927600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_111
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 666
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd447bc03ce4b44c893cb156ec030e3
+      internalID: 1457961521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_112
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 679
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecca32444cf42d3429abc5e014b6e1ce
+      internalID: -777982215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_113
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 683
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a74bfd88ab8824d8a4c8d6c24f90a7
+      internalID: -1408121059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_114
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 678
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68a1f2feb347b94b98c78c5e4aa8ca1
+      internalID: -1846546594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_115
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 630
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f800c8e0bbfaa42a19a26c0b04fdf9
+      internalID: -921045425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_116
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 644
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e2c0f55636b1741a79d81c288e450d
+      internalID: -553715742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_117
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 587
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e84a1d576bfd647a5338dd16d03df7
+      internalID: -1444487415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_118
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 638
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1e77c0a3eb84c4c8d3c4ebfdd3969e
+      internalID: -306006119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_119
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 654
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf62d78e9f1b21469895bef956574c1
+      internalID: -1775213467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_120
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 606
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc233be15215d2243b466e4e5d0fc0f0
+      internalID: -64926517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_121
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 635
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874db35db5d3743428c8a6b24d216bcf
+      internalID: -1001626507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_122
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 612
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18deb2f08c1450d48ab624c219763d2a
+      internalID: 1999226372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_123
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 620
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc686164d7c9364f9c4df27f66e83fa
+      internalID: -7431471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_124
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 673
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b5acdaa6509540808f2f21d85f55e
+      internalID: 734461455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_125
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 606
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8469a0cb22b0f143bcb30526069a9d1
+      internalID: -2072322072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_126
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 631
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5463e2d966d9418aea7778d25f185
+      internalID: 1382257485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_127
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 594
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4417ad1f03d6ec4d972cdae616d314b
+      internalID: 1008521647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_128
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 585
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca99efb61f7e745b4c8d44372579d0
+      internalID: -1853347341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_129
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 620
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09f16e4fb7ff7943a3ffbd4c9e79508
+      internalID: 246864133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_130
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 618
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fcca5399680774594914be62fef090
+      internalID: 1420225300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_131
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 626
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91e0dc2489911044842ebc57016e25f
+      internalID: -144289320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_132
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 608
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7393491726fb02e46a8ab7b7f12f41e2
+      internalID: -1686952696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_133
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 630
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b7713cc8c5a04987b561b39589e77
+      internalID: 1217391851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_134
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 640
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f1ddc7d68bd254ca67b39c167c2674
+      internalID: -944064620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_135
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 624
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ee2b4b92249154a904a129c2f2477b
+      internalID: -305088964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_136
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 635
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b23a6b2b63947458d5c59234ef10ab
+      internalID: 432842272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_137
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 604
+        width: 19
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63875bc13efd5e4f96e5c88ece88870
+      internalID: -241759669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_138
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 646
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6358c0a702c74144a916b8cafd371e5b
+      internalID: 1891003955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_139
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 660
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e3e07b14445de4b9c6e38b194aed95
+      internalID: 792887755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_140
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 587
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e10edd0ca9385540b189d1c670628e4
+      internalID: 324651476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_141
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 587
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e908bd9cde6bca640aed4eaa60133790
+      internalID: -1688904955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_142
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 593
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbfeb413849534d9d6b0fd488f48bd
+      internalID: 1357769106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_143
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 573
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe96b0221b47da4bbc29d4f0e1e5d62
+      internalID: 234560365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_144
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 581
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94867047b064fe4b8b5a1c07892f35d
+      internalID: 428631252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_145
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 584
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de3e729db99521439d2cdd33ce298ec
+      internalID: 590390558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_146
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 541
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc8bd4bd22691643a8874287bea77dc
+      internalID: 1470661534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_147
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 543
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef53c0fe51acd9a43a95a635c2731fba
+      internalID: 47695816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_148
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 569
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaaf562d3e8c7c4dab273475987b753
+      internalID: -574536967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_149
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 527
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d7917a77d2ed04ba72936f13ca8bf8
+      internalID: 324096447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Dot_Few_150
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 526
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aff250ca83b4447b1998b38246f640
+      internalID: -952003494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Red_Dot_Few_0: 1954562486
+      Red_Dot_Few_1: 1739720709
+      Red_Dot_Few_10: 333194687
+      Red_Dot_Few_100: -1129778512
+      Red_Dot_Few_101: 1324867663
+      Red_Dot_Few_102: 494592009
+      Red_Dot_Few_103: 37193343
+      Red_Dot_Few_104: -633051360
+      Red_Dot_Few_105: 135765814
+      Red_Dot_Few_106: 822391431
+      Red_Dot_Few_107: -1593770777
+      Red_Dot_Few_108: 700850392
+      Red_Dot_Few_109: -952670343
+      Red_Dot_Few_11: 543581198
+      Red_Dot_Few_110: -393927600
+      Red_Dot_Few_111: 1457961521
+      Red_Dot_Few_112: -777982215
+      Red_Dot_Few_113: -1408121059
+      Red_Dot_Few_114: -1846546594
+      Red_Dot_Few_115: -921045425
+      Red_Dot_Few_116: -553715742
+      Red_Dot_Few_117: -1444487415
+      Red_Dot_Few_118: -306006119
+      Red_Dot_Few_119: -1775213467
+      Red_Dot_Few_12: -2105288056
+      Red_Dot_Few_120: -64926517
+      Red_Dot_Few_121: -1001626507
+      Red_Dot_Few_122: 1999226372
+      Red_Dot_Few_123: -7431471
+      Red_Dot_Few_124: 734461455
+      Red_Dot_Few_125: -2072322072
+      Red_Dot_Few_126: 1382257485
+      Red_Dot_Few_127: 1008521647
+      Red_Dot_Few_128: -1853347341
+      Red_Dot_Few_129: 246864133
+      Red_Dot_Few_13: -784951884
+      Red_Dot_Few_130: 1420225300
+      Red_Dot_Few_131: -144289320
+      Red_Dot_Few_132: -1686952696
+      Red_Dot_Few_133: 1217391851
+      Red_Dot_Few_134: -944064620
+      Red_Dot_Few_135: -305088964
+      Red_Dot_Few_136: 432842272
+      Red_Dot_Few_137: -241759669
+      Red_Dot_Few_138: 1891003955
+      Red_Dot_Few_139: 792887755
+      Red_Dot_Few_14: -431884356
+      Red_Dot_Few_140: 324651476
+      Red_Dot_Few_141: -1688904955
+      Red_Dot_Few_142: 1357769106
+      Red_Dot_Few_143: 234560365
+      Red_Dot_Few_144: 428631252
+      Red_Dot_Few_145: 590390558
+      Red_Dot_Few_146: 1470661534
+      Red_Dot_Few_147: 47695816
+      Red_Dot_Few_148: -574536967
+      Red_Dot_Few_149: 324096447
+      Red_Dot_Few_15: 1036869398
+      Red_Dot_Few_150: -952003494
+      Red_Dot_Few_16: -1145685392
+      Red_Dot_Few_17: -1637202130
+      Red_Dot_Few_18: 61512598
+      Red_Dot_Few_19: -303392014
+      Red_Dot_Few_2: -782058116
+      Red_Dot_Few_20: -1451788027
+      Red_Dot_Few_21: -120517327
+      Red_Dot_Few_22: -1375112242
+      Red_Dot_Few_23: 635402280
+      Red_Dot_Few_24: 1449224366
+      Red_Dot_Few_25: 32900204
+      Red_Dot_Few_26: -1314170241
+      Red_Dot_Few_27: 1215378084
+      Red_Dot_Few_28: -2135998077
+      Red_Dot_Few_29: 1345832288
+      Red_Dot_Few_3: 1190555921
+      Red_Dot_Few_30: -1852239354
+      Red_Dot_Few_31: 584708193
+      Red_Dot_Few_32: 1498124330
+      Red_Dot_Few_33: -352557146
+      Red_Dot_Few_34: 571781135
+      Red_Dot_Few_35: -376703731
+      Red_Dot_Few_36: 930163442
+      Red_Dot_Few_37: 1240996674
+      Red_Dot_Few_38: 1020169715
+      Red_Dot_Few_39: -1702659831
+      Red_Dot_Few_4: 2129818456
+      Red_Dot_Few_40: 1088150302
+      Red_Dot_Few_41: 1252130188
+      Red_Dot_Few_42: 945138775
+      Red_Dot_Few_43: 992007103
+      Red_Dot_Few_44: 441130312
+      Red_Dot_Few_45: -905458094
+      Red_Dot_Few_46: -1515753175
+      Red_Dot_Few_47: -1702728607
+      Red_Dot_Few_48: 81917952
+      Red_Dot_Few_49: -1699396691
+      Red_Dot_Few_5: -1640254103
+      Red_Dot_Few_50: 1724915813
+      Red_Dot_Few_51: -1294003725
+      Red_Dot_Few_52: -174287043
+      Red_Dot_Few_53: 1673787759
+      Red_Dot_Few_54: -495577430
+      Red_Dot_Few_55: -2020917487
+      Red_Dot_Few_56: -1037156493
+      Red_Dot_Few_57: 325186709
+      Red_Dot_Few_58: 625834351
+      Red_Dot_Few_59: -1649282435
+      Red_Dot_Few_6: 858899768
+      Red_Dot_Few_60: -1945857847
+      Red_Dot_Few_61: 961266437
+      Red_Dot_Few_62: -1609332363
+      Red_Dot_Few_63: 184343279
+      Red_Dot_Few_64: -210573118
+      Red_Dot_Few_65: -129695957
+      Red_Dot_Few_66: -1640836555
+      Red_Dot_Few_67: 37599286
+      Red_Dot_Few_68: 1188284742
+      Red_Dot_Few_69: -183771081
+      Red_Dot_Few_7: 872696227
+      Red_Dot_Few_70: -736763533
+      Red_Dot_Few_71: -1603295114
+      Red_Dot_Few_72: 674649194
+      Red_Dot_Few_73: 599880554
+      Red_Dot_Few_74: 570771699
+      Red_Dot_Few_75: -1704846654
+      Red_Dot_Few_76: 493625783
+      Red_Dot_Few_77: 2126770320
+      Red_Dot_Few_78: -1778404721
+      Red_Dot_Few_79: 707578592
+      Red_Dot_Few_8: -1668601641
+      Red_Dot_Few_80: -1047127477
+      Red_Dot_Few_81: 995398987
+      Red_Dot_Few_82: -74129260
+      Red_Dot_Few_83: -711477998
+      Red_Dot_Few_84: 1571748812
+      Red_Dot_Few_85: -1739486428
+      Red_Dot_Few_86: 1967285189
+      Red_Dot_Few_87: -297892350
+      Red_Dot_Few_88: -2024008975
+      Red_Dot_Few_89: 1628619906
+      Red_Dot_Few_9: 1987078775
+      Red_Dot_Few_90: 577004465
+      Red_Dot_Few_91: -1952160199
+      Red_Dot_Few_92: 1872640771
+      Red_Dot_Few_93: 582898087
+      Red_Dot_Few_94: -1918081384
+      Red_Dot_Few_95: -88425701
+      Red_Dot_Few_96: -1534720969
+      Red_Dot_Few_97: 1205323665
+      Red_Dot_Few_98: 1839709170
+      Red_Dot_Few_99: -2136798276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

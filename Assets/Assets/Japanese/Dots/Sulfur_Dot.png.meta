@@ -1,0 +1,2050 @@
+fileFormatVersion: 2
+guid: 35c4a0b950209e24286131ed637d0c79
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sulfur_Dot_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1343
+        width: 283
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1291578d7c2f0e044a141483d0fec45c
+      internalID: 1028807299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_1
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1343
+        width: 342
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b8a3d9c12fe674e8d92c0ea54dd067
+      internalID: -1812789343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_2
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1343
+        width: 339
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0040908746277d446806d43c6d5fdc83
+      internalID: 348906172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_3
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1343
+        width: 327
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d36d7deb3534364799ea334506fe754
+      internalID: -126921925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 620
+        width: 391
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d994135c3f207bb4b8fc4891478a91e5
+      internalID: 125220609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1002
+        width: 344
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0750c9754297e47814cb6ba0b241c3
+      internalID: 2009880002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_6
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 979
+        width: 370
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe45db4245b360845ae8a8c12b09cad6
+      internalID: -2055541916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_7
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1000
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f93c1f942b1b2b4a899cb1be29808dc
+      internalID: 447665659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_8
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 981
+        width: 366
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192195f32bfbfba4994d717678fa8029
+      internalID: -680559883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_9
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 896
+        width: 353
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96892a649ebb8d40bc22a3bdec70639
+      internalID: 767505032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 990
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2cc9661c23213419dbd1b737581048
+      internalID: 985412964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_11
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 979
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b54219aaf41d504e822d083eda42aaf
+      internalID: -985888788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 979
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe45ad4b29ca904489977d7d526ceeb
+      internalID: 1378156610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_13
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 975
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df340455054dc944938679ddfdca3d7
+      internalID: 1006094055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_14
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 979
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7807986c54db07489c790d40dcd6753
+      internalID: -664008637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_15
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 979
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb2cedc16afbf144ba2395ffb20bfe0
+      internalID: 1057766083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_16
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 620
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3e9192c015f15409854809fc8aaa93
+      internalID: -1150097398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_17
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 958
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c2c982cbfc4a469ec360266056b00
+      internalID: -1741162297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_18
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 977
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab48377dc52516440b4bce324a3bc9ca
+      internalID: 151560714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_19
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 621
+        width: 389
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608a5a9cc48ad9a49961568798ddc6e9
+      internalID: 1815735470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_20
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 962
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef809cbe0492984887b8d0fb52863b3
+      internalID: 1900253149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_21
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 944
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eece0ad8d11ee8748a2376987dfca297
+      internalID: -627779028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_22
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 962
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e50cc82d3ee2714095612020e53eae1
+      internalID: 411650840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_23
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 926
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da808ff92370c4943809c2e516e9ebd2
+      internalID: 1595670637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_24
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 954
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7418facb75f976648830b3ba6681972f
+      internalID: 866655266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_25
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 951
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d242b3594fdb0438b737082b09e2ed
+      internalID: 2120790488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_26
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 941
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da24f2a3b20398142969e530a456256f
+      internalID: 1844858114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_27
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 924
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f362d9a28cc5eff468e17842457e9da0
+      internalID: 891805745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_28
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 928
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7565894ee9cde4291d8196081dd870
+      internalID: 1634115101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_29
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 926
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7245bc68a992049aca071cb7156399
+      internalID: 823388632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_30
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 920
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8756683b816a55a48802baf653d1aeb1
+      internalID: 311913181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_31
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 925
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90cb3d209ca54c4f956127348a48cfa
+      internalID: 1493939398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_32
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 917
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fea06da5eeac1b489db7862051395ff
+      internalID: 1385525057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_33
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 891
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b89bd0772ae0d47ac94442419268ed
+      internalID: -2063193377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_34
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 906
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43c94f325eeb104289de42b05b81782
+      internalID: -1136606860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_35
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 896
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9305de5a56d91d4682e7f84a2979f3c
+      internalID: -1945952654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_36
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 899
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b671536d191954cb18ae08278e8cee
+      internalID: 1582781578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_37
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 881
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3854b0cbda65cd04e84e5a62f4dee13b
+      internalID: 1225807955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_38
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 883
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37686eda6eb5227409e1df54a614c696
+      internalID: -1073376285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_39
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 894
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71682166e7abc4b48ba8337e776bfeef
+      internalID: 1728075298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_40
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 827
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343b45b4c8d1e8d4793f761f55d4594c
+      internalID: 533020749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_41
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 836
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a11e138fdc432c448b4aecd06d7c30d
+      internalID: 1694025562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_42
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 872
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bee15cefbeee1418113ae07d1260e8
+      internalID: 1677396532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_43
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 871
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1ab9d0c54270a47ae8b79cf4ae1d7d
+      internalID: -1836640629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_44
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 645
+        width: 170
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78b89261376d8a40acbe108406dc621
+      internalID: 718534049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_45
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 854
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcadbde56c066f4baf5f691267a5e6a
+      internalID: 353705744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_46
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 863
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624bb2a23cafcea42bbf2cc9f102bfac
+      internalID: -1897293664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_47
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 858
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482cbcfbc6195f4ba2d24c225d2a835
+      internalID: -1363993355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_48
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 849
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b6410f5a14ab448ae0177bb2df3cb4
+      internalID: 241231708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_49
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 833
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f57475851eaf764695b1f542339e06d
+      internalID: 503865524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_50
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 848
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fca973eece025489f46fe2295f3ea3
+      internalID: 625511316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_51
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 760
+        width: 116
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3c49f7ed733c0438b672c3127e9555
+      internalID: -973572437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_52
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 853
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25daa8edcc478d429d37ba6bc292f1e
+      internalID: -1546817240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_53
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 830
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42bc3a98feefb94c80c49157aa3cafa
+      internalID: 1493158997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_54
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 834
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117cf02835bff1b4c88b35f34a2df46c
+      internalID: -835706282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_55
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 811
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d1a3d07cbd975428a08d44ced11eaf
+      internalID: 221818565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_56
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 822
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab71413a73a5ad4891cc6d34b7b8792
+      internalID: 2139231308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_57
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 802
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6ab179b0d9f7c4b90bbe1a5cdadef8
+      internalID: 1985673564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_58
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 810
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1e174c4d097c5499e450ca4ba4dee4
+      internalID: -1027839801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_59
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 798
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a746066730bf3143a83c5e6e47ebef5
+      internalID: -61362356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_60
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 796
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a32209e86c6068449b5abb23f182631
+      internalID: -662085790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_61
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 780
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8577672e615b48945a7d5576e70d0584
+      internalID: -229801367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_62
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 784
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d010af16c3e5f4a9401a44bb7768e3
+      internalID: -1263146319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_63
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 770
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859abacf49a558f4a90d8c03839828f0
+      internalID: 585572118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_64
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 771
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e7a86ded65b94faf0c6da0d42be42
+      internalID: 407753577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_65
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 763
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c855af3333aeae049899cc3a72577325
+      internalID: 20280389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_66
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 751
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfb154a9d1dcdb44b338f4a69e776ea
+      internalID: -1206481565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_67
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 756
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8e00691dc39e3488b6fd7bfb7f3a7e
+      internalID: -356648017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_68
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 750
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb52ab4468b2abd49a35201e4c7bd3a4
+      internalID: 981765720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_69
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 712
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d5ffecaa78cf840aec2d1670e7d881
+      internalID: 1764784209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_70
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 714
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609babbf871940b4d82a22535868352f
+      internalID: 889415058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_71
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 662
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f7aefc5f30fe4d94a062fb26c1c3f
+      internalID: -2081732668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_72
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 698
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a097c19ad9cf644bbbba044c34aedd
+      internalID: 567138146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_73
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 706
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d50b0ceac006f4f89409f44f74719a
+      internalID: -1389723991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_74
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 689
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe11f33320e00cd4eaf6ee7b5446e046
+      internalID: 651558370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_75
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 678
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b13f24e444267546ab048d397ec9fa1
+      internalID: 1140593554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_76
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 691
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e0ed0327c4bb540b69480260cf4daa
+      internalID: -2102763192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_77
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 658
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b879543007ec8a4dafebf90171f5a91
+      internalID: 275821714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_78
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 671
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd0e4487c4e40e49b144fb3da48e475
+      internalID: 609253121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_79
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 671
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c888fa7316df71e4e83f1df0e8fd7ad1
+      internalID: 1104704357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_80
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 665
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7de63880db1a345bc57e3ac3aad89b
+      internalID: -1614455378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_81
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 615
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f676ebe1db184da900904128d3f90
+      internalID: 1480572979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_82
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 617
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fe724772ec7dd4692af759eb6f6214
+      internalID: 1238907458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_83
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 658
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18997e31668aded4081047ed3b9bedf0
+      internalID: -477315440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_84
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 658
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac07efbb77d80f4a97ccd6197946852
+      internalID: -1346703140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_85
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 646
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619682869822dfb4eb1ff6c6ba607ba5
+      internalID: -561500230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_86
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 603
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330d123020b47414b986c882aef50982
+      internalID: 1194931304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sulfur_Dot_87
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91f3acd7baa214a84e037c2084c9ed
+      internalID: 1324317207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sulfur_Dot_0: 1028807299
+      Sulfur_Dot_1: -1812789343
+      Sulfur_Dot_10: 985412964
+      Sulfur_Dot_11: -985888788
+      Sulfur_Dot_12: 1378156610
+      Sulfur_Dot_13: 1006094055
+      Sulfur_Dot_14: -664008637
+      Sulfur_Dot_15: 1057766083
+      Sulfur_Dot_16: -1150097398
+      Sulfur_Dot_17: -1741162297
+      Sulfur_Dot_18: 151560714
+      Sulfur_Dot_19: 1815735470
+      Sulfur_Dot_2: 348906172
+      Sulfur_Dot_20: 1900253149
+      Sulfur_Dot_21: -627779028
+      Sulfur_Dot_22: 411650840
+      Sulfur_Dot_23: 1595670637
+      Sulfur_Dot_24: 866655266
+      Sulfur_Dot_25: 2120790488
+      Sulfur_Dot_26: 1844858114
+      Sulfur_Dot_27: 891805745
+      Sulfur_Dot_28: 1634115101
+      Sulfur_Dot_29: 823388632
+      Sulfur_Dot_3: -126921925
+      Sulfur_Dot_30: 311913181
+      Sulfur_Dot_31: 1493939398
+      Sulfur_Dot_32: 1385525057
+      Sulfur_Dot_33: -2063193377
+      Sulfur_Dot_34: -1136606860
+      Sulfur_Dot_35: -1945952654
+      Sulfur_Dot_36: 1582781578
+      Sulfur_Dot_37: 1225807955
+      Sulfur_Dot_38: -1073376285
+      Sulfur_Dot_39: 1728075298
+      Sulfur_Dot_4: 125220609
+      Sulfur_Dot_40: 533020749
+      Sulfur_Dot_41: 1694025562
+      Sulfur_Dot_42: 1677396532
+      Sulfur_Dot_43: -1836640629
+      Sulfur_Dot_44: 718534049
+      Sulfur_Dot_45: 353705744
+      Sulfur_Dot_46: -1897293664
+      Sulfur_Dot_47: -1363993355
+      Sulfur_Dot_48: 241231708
+      Sulfur_Dot_49: 503865524
+      Sulfur_Dot_5: 2009880002
+      Sulfur_Dot_50: 625511316
+      Sulfur_Dot_51: -973572437
+      Sulfur_Dot_52: -1546817240
+      Sulfur_Dot_53: 1493158997
+      Sulfur_Dot_54: -835706282
+      Sulfur_Dot_55: 221818565
+      Sulfur_Dot_56: 2139231308
+      Sulfur_Dot_57: 1985673564
+      Sulfur_Dot_58: -1027839801
+      Sulfur_Dot_59: -61362356
+      Sulfur_Dot_6: -2055541916
+      Sulfur_Dot_60: -662085790
+      Sulfur_Dot_61: -229801367
+      Sulfur_Dot_62: -1263146319
+      Sulfur_Dot_63: 585572118
+      Sulfur_Dot_64: 407753577
+      Sulfur_Dot_65: 20280389
+      Sulfur_Dot_66: -1206481565
+      Sulfur_Dot_67: -356648017
+      Sulfur_Dot_68: 981765720
+      Sulfur_Dot_69: 1764784209
+      Sulfur_Dot_7: 447665659
+      Sulfur_Dot_70: 889415058
+      Sulfur_Dot_71: -2081732668
+      Sulfur_Dot_72: 567138146
+      Sulfur_Dot_73: -1389723991
+      Sulfur_Dot_74: 651558370
+      Sulfur_Dot_75: 1140593554
+      Sulfur_Dot_76: -2102763192
+      Sulfur_Dot_77: 275821714
+      Sulfur_Dot_78: 609253121
+      Sulfur_Dot_79: 1104704357
+      Sulfur_Dot_8: -680559883
+      Sulfur_Dot_80: -1614455378
+      Sulfur_Dot_81: 1480572979
+      Sulfur_Dot_82: 1238907458
+      Sulfur_Dot_83: -477315440
+      Sulfur_Dot_84: -1346703140
+      Sulfur_Dot_85: -561500230
+      Sulfur_Dot_86: 1194931304
+      Sulfur_Dot_87: 1324317207
+      Sulfur_Dot_9: 767505032
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

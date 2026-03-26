@@ -1,0 +1,1896 @@
+fileFormatVersion: 2
+guid: 1f0b93607b067814e924922837e9a80e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth_Dot_0
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1295
+        width: 198
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd564530e284649459ac0654cd80146c
+      internalID: -779904646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_1
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1295
+        width: 199
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbffa97620b90f4199aa3c870df9239
+      internalID: -2083200966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_2
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1295
+        width: 199
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff1218277110e4486073e99bbd9ab2
+      internalID: -917195097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_3
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1295
+        width: 198
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f379aa2791ac03468fd0b4625da98f5
+      internalID: -2049482015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 999
+        width: 198
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997e1fdfcfb11b644aee167879ac575b
+      internalID: -1373517478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_5
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 991
+        width: 218
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd6f7745d512c64f9f81198d353798a
+      internalID: -1903526410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_6
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 987
+        width: 265
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5caaa4f048a45e459161626dade7f1d
+      internalID: 1711427037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_7
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 999
+        width: 198
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f52f302f9192d4a98958896652b457
+      internalID: 1038458277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_8
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 958
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbcc196ec998a045bc2942b23623ce9
+      internalID: 1115853410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_9
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 957
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6488f2c5977951542a4a07b919c72486
+      internalID: -1502143356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_10
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 953
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dc2e6afe7ec0e4d9cea0e2d688ec8b
+      internalID: -1945021172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 693
+        width: 199
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec20e0ce4f54854c9543e48b96d9582
+      internalID: -1407866482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_12
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 693
+        width: 210
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe152ab2a7388604f8d8859c6c0ff88b
+      internalID: 187698244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 944
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d231b82afa629474f9ee05d70088812a
+      internalID: 892244093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_14
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 935
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a68265aa009f8c4a99828cf34371427
+      internalID: -1810479077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_15
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 947
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ef16dde32cdb4fb335257caa239f5
+      internalID: 135129125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_16
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 942
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a47f406f45b344e9cedae8388f5079
+      internalID: 1599933614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_17
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 947
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a381e49f14084f4b839a2cecc3a97ac
+      internalID: -263639532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_18
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 865
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5114d5339e1d714ba7ef5df142c4618
+      internalID: -820420690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_19
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 939
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a406c780a011182409a2f58a02f558a5
+      internalID: 804337528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_20
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e5dab48ad24734294b4c87805a6c42
+      internalID: -46410061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_21
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 938
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c09085a128bd8489b6d1bda9901a85
+      internalID: -1193643243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_22
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 935
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ceea0b6eabc084bbdb36fcc0517eb7
+      internalID: -997568047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_23
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 942
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e1a3163195994493dc558d479ee38
+      internalID: -901040569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_24
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 923
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874a4658a992f4439de7dceaab37f45
+      internalID: 1121394056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_25
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 703
+        width: 211
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b7ca3f2e5c9347900bc24150505aa
+      internalID: -974840224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_26
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 930
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f2a2b8065bd394f9b466ed6687f898
+      internalID: -2068655723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_27
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 930
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacc81fc23e0b664d85d445fad4a338c
+      internalID: 1807841829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_28
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 931
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94e28079d87ec944a8a9fd6518a130c
+      internalID: -1153096188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_29
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 900
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3329dc2688bb64da86f538781fa63f
+      internalID: -63402507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_30
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 895
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edea5a2276a51214ea9d7a5cb00f4183
+      internalID: 2116727084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_31
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 894
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a6aaef47525604fbeeb10babbd644f
+      internalID: -1836734426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_32
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 875
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d2fcacacfccdf45ac4926cbef02901
+      internalID: -624247034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_33
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 893
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0635af259e2d25e44bf464e052b38654
+      internalID: 368142056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_34
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 863
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289574f2efeb8db48a0d89365980dbcd
+      internalID: 1622772249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_35
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 883
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff87c4472bb5744bd379e6e227a9f6
+      internalID: -2053425018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_36
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 880
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10e462f72361694f8d075d24f458c61
+      internalID: -1282330533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_37
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 882
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ca46b06b79fee47bf182382ba96140
+      internalID: 1221329890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_38
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 867
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fd9a4c53f4b6749b7f5c93e1512506
+      internalID: -2033909178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_39
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 873
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cfc443351aa9f439dc6d8e30d46caf
+      internalID: -633227749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_40
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 874
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4531b103a2bdd9f4294b55448951e818
+      internalID: 1908638636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_41
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 872
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d741d6f188aa006479e76771cbeb46f4
+      internalID: 643230526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_42
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 867
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356223b28969e534daf75d7fc42be697
+      internalID: 1041742266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_43
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 873
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e76da4d7ac41e47aff895e0d367e02
+      internalID: 1423234630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_44
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 854
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0843513fca3cd28459a0e7e1ff619761
+      internalID: -1099584534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_45
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 874
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeda4e745c06f1d449d0f37940786588
+      internalID: -835166297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_46
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 840
+        width: 68
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77b0340696d0241bdc23d90841602d
+      internalID: -1424712307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_47
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 870
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac87ed437724134d9470ace2b10b70e
+      internalID: -1613642409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_48
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 856
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d941e9f9b24714e8408fecf21f33ca
+      internalID: -1897308897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_49
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 848
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463434b6c4350714491109a4ab31a0d3
+      internalID: -539393466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_50
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 830
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2843a905b188ec4d92b15dee07a1229
+      internalID: -39074340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_51
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 841
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cfa5ea554cdae4096849c2275837bf
+      internalID: -766646081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_52
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 842
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a223e0df686fef44a90594232fd663f
+      internalID: 1289610166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_53
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 851
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ae02279bcc0124ea6a3d6d183bf0e1
+      internalID: 1293235913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_54
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 833
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9e7e4d3adce1340ac414f788e2f393
+      internalID: 1448458531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_55
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 827
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2064521be8bf2304e8240aecabd0d3b5
+      internalID: 1247993144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_56
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 828
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918794615ccc53544b43dafa3de25954
+      internalID: 1863144439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_57
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 797
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9327124d8099f4e9b986de7d8aae19
+      internalID: 1684599673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_58
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 836
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ad17686e2c8904ca15674c7f8fb9a7
+      internalID: -750743955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_59
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 835
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29dd0e5aa9409a4cb752be2cc2c03cb
+      internalID: 38616956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_60
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 728
+        width: 115
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8515cd049f89c9b4998bcf7e5c8fc9b6
+      internalID: 1644237377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_61
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 829
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b40f38707e10b942be4971ef2fe7cee
+      internalID: -992065466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_62
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 823
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594a3b7fc2b0f9846a348eab9696feb6
+      internalID: 950625242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_63
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 819
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff03000878a18444a979c2caefcff2e
+      internalID: 1356002463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_64
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 824
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d86db1ac9d386419ae8d472041fed7
+      internalID: -1631072674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_65
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 804
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702e6c55ab80cd34abea2c57336736c2
+      internalID: -547827880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_66
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 806
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5cd4c944af2e244bbba137e792b1da
+      internalID: 396630076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_67
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 816
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867131787aad98047a5d66bc70f6ffa5
+      internalID: -1832589261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_68
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 807
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6edbe0cfa0639848b42f3dcd8ba18a1
+      internalID: -1769998576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_69
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 792
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f87523c988d3ba42a2549b952b23ace
+      internalID: 1052243262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_70
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 773
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328a3c3a1eb21644eadb384ac529e7f3
+      internalID: 790306460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_71
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 773
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862acfabfd6730f40aa40d5dd5a9d6ef
+      internalID: 1219815122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_72
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 766
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf5b4318d27a1249bb7347137ff51bc
+      internalID: 854627229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_73
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 752
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943488d0dde44c9438d4cc353c26d2ca
+      internalID: -2079785332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_74
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 739
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a655c749e6eca0e4ea73302d515a77b9
+      internalID: -1410228577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_75
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 735
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebefa93123ea1c4cb919f425ee614b0
+      internalID: 193313060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_76
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 723
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9a5360ded9a0942aab09459e8b9b7c
+      internalID: -987431268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_77
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 705
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ebf1606e2abfb4c8387f3a1778fa31
+      internalID: -1295834443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_78
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 709
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f625ba78275c01c42946b89dfdb5c1b9
+      internalID: -526697316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_79
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 694
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd780518d9e06f42a8b624513f75c3e
+      internalID: 844033183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Dot_80
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 693
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deb26f3698c7474696f701b02e548b6
+      internalID: 1606829062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Earth_Dot_0: -779904646
+      Earth_Dot_1: -2083200966
+      Earth_Dot_10: -1945021172
+      Earth_Dot_11: -1407866482
+      Earth_Dot_12: 187698244
+      Earth_Dot_13: 892244093
+      Earth_Dot_14: -1810479077
+      Earth_Dot_15: 135129125
+      Earth_Dot_16: 1599933614
+      Earth_Dot_17: -263639532
+      Earth_Dot_18: -820420690
+      Earth_Dot_19: 804337528
+      Earth_Dot_2: -917195097
+      Earth_Dot_20: -46410061
+      Earth_Dot_21: -1193643243
+      Earth_Dot_22: -997568047
+      Earth_Dot_23: -901040569
+      Earth_Dot_24: 1121394056
+      Earth_Dot_25: -974840224
+      Earth_Dot_26: -2068655723
+      Earth_Dot_27: 1807841829
+      Earth_Dot_28: -1153096188
+      Earth_Dot_29: -63402507
+      Earth_Dot_3: -2049482015
+      Earth_Dot_30: 2116727084
+      Earth_Dot_31: -1836734426
+      Earth_Dot_32: -624247034
+      Earth_Dot_33: 368142056
+      Earth_Dot_34: 1622772249
+      Earth_Dot_35: -2053425018
+      Earth_Dot_36: -1282330533
+      Earth_Dot_37: 1221329890
+      Earth_Dot_38: -2033909178
+      Earth_Dot_39: -633227749
+      Earth_Dot_4: -1373517478
+      Earth_Dot_40: 1908638636
+      Earth_Dot_41: 643230526
+      Earth_Dot_42: 1041742266
+      Earth_Dot_43: 1423234630
+      Earth_Dot_44: -1099584534
+      Earth_Dot_45: -835166297
+      Earth_Dot_46: -1424712307
+      Earth_Dot_47: -1613642409
+      Earth_Dot_48: -1897308897
+      Earth_Dot_49: -539393466
+      Earth_Dot_5: -1903526410
+      Earth_Dot_50: -39074340
+      Earth_Dot_51: -766646081
+      Earth_Dot_52: 1289610166
+      Earth_Dot_53: 1293235913
+      Earth_Dot_54: 1448458531
+      Earth_Dot_55: 1247993144
+      Earth_Dot_56: 1863144439
+      Earth_Dot_57: 1684599673
+      Earth_Dot_58: -750743955
+      Earth_Dot_59: 38616956
+      Earth_Dot_6: 1711427037
+      Earth_Dot_60: 1644237377
+      Earth_Dot_61: -992065466
+      Earth_Dot_62: 950625242
+      Earth_Dot_63: 1356002463
+      Earth_Dot_64: -1631072674
+      Earth_Dot_65: -547827880
+      Earth_Dot_66: 396630076
+      Earth_Dot_67: -1832589261
+      Earth_Dot_68: -1769998576
+      Earth_Dot_69: 1052243262
+      Earth_Dot_7: 1038458277
+      Earth_Dot_70: 790306460
+      Earth_Dot_71: 1219815122
+      Earth_Dot_72: 854627229
+      Earth_Dot_73: -2079785332
+      Earth_Dot_74: -1410228577
+      Earth_Dot_75: 193313060
+      Earth_Dot_76: -987431268
+      Earth_Dot_77: -1295834443
+      Earth_Dot_78: -526697316
+      Earth_Dot_79: 844033183
+      Earth_Dot_8: 1115853410
+      Earth_Dot_80: 1606829062
+      Earth_Dot_9: -1502143356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
