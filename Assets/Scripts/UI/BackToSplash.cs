@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class BackToSplash : MonoBehaviour
@@ -11,6 +11,7 @@ public class BackToSplash : MonoBehaviour
         var scoreMgr = FindObjectOfType<ScoreManager>();
         var gameData = FindObjectOfType<GameData>();
 
+        // Убеждаемся, что индекс уровня корректный (от 0 и выше)
         int level = board != null ? Mathf.Max(0, board.level) : 0;
         int score = scoreMgr != null ? scoreMgr.score : 0;
 
@@ -18,15 +19,21 @@ public class BackToSplash : MonoBehaviour
         {
             var sd = gameData.saveData;
 
+            // 1. Сохраняем лучший результат для текущего уровня
             if (sd.highScores != null && level < sd.highScores.Length)
                 sd.highScores[level] = Mathf.Max(sd.highScores[level], score);
 
-            if (sd.stars != null && level < sd.stars.Length && board != null && board.scoreGoals != null)
-                sd.stars[level] = Mathf.Max(sd.stars[level], CalcStars(score, board.scoreGoals));
+            // 2. Считаем полученные звезды
+            int starsEarned = 0;
+            if (board != null && board.scoreGoals != null)
+                starsEarned = CalcStars(score, board.scoreGoals);
 
-            gameData.Save();
+            // 3. КЛЮЧЕВОЙ МОМЕНТ: открываем следующий уровень и сохраняем всё в файл
+            // Этот метод внутри GameData делает: isActive[level + 1] = true
+            gameData.MarkLevelCompleted(level, starsEarned);
         }
 
+        // Переход на следующий уровень или в меню
         int nextLevel = level + 1;
         if (board != null && board.world != null && board.world.levels != null && nextLevel < board.world.levels.Length)
         {
