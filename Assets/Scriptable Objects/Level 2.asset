@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6acb55169ad41d5428f95312a4c127e0, type: 3}
   m_Name: Level 2
   m_EditorClassIdentifier: 
-  width: 6
+  width: 8
   height: 8
   boardLayout: []
   dots:

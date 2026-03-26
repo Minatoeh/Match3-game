@@ -13,20 +13,20 @@ MonoBehaviour:
   m_Name: Level 1
   m_EditorClassIdentifier: 
   width: 8
-  height: 7
+  height: 8
   boardLayout:
   - x: 0
     y: 0
-    tileKind: 1
+    tileKind: 3
   - x: 0
     y: 3
-    tileKind: 1
+    tileKind: 4
   - x: 0
     y: 6
-    tileKind: 1
+    tileKind: 0
   - x: 7
     y: 0
-    tileKind: 1
+    tileKind: 2
   - x: 7
     y: 3
     tileKind: 1
@@ -43,18 +43,10 @@ MonoBehaviour:
     counterValue: 15
   levelGoals:
   - numberNeeded: 6
-    numberCollected: 0
+    numberCollected: 12
     goalSprite: {fileID: 1954562486, guid: 60b42ddf1b11105408d65d3b19ed4921, type: 3}
     matchValue: Fire Dot
   - numberNeeded: 10
-    numberCollected: 0
-    goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
-    matchValue: Fire Dot
-  - numberNeeded: 10
-    numberCollected: 0
-    goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
-    matchValue: Fire Dot
-  - numberNeeded: 10
-    numberCollected: 0
+    numberCollected: 12
     goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
     matchValue: Fire Dot

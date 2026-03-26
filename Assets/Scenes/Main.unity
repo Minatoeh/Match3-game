@@ -2297,7 +2297,7 @@ MonoBehaviour:
   world: {fileID: 11400000, guid: 555dbc8f53a88394680926da0cbef1b8, type: 2}
   level: 1
   currentState: 1
-  width: 6
+  width: 8
   height: 9
   offSet: 10
   tilePrefab: {fileID: 2114403273115792603, guid: 1575840ba5a603a4ba41a7ced51719ae, type: 3}
@@ -4039,8 +4039,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c201b8df54b918541a126d10886ba951, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 2a2bab8d81bd49349848b549f914638b, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
