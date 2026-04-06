@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -402,13 +402,13 @@ public class Board : MonoBehaviour
 
         Dot dot = go.GetComponent<Dot>();
         if (dot == null)
-        {                 
+        {
             Destroy(go);
             allDots[column, row] = null;
             return;
         }
 
-        if (!dot.isMatched) return;        
+        if (!dot.isMatched) return;
 
         if (breakableTiles[column, row] != null)
         {
@@ -431,6 +431,14 @@ public class Board : MonoBehaviour
             goalManager.CompareGoal(go.tag);
             goalManager.UpdateGoals();
         }
+
+        // ---> ВОТ ЭТОТ БЛОК НУЖНО ДОБАВИТЬ <---
+        if (scoreManager != null)
+        {
+            // Начисляем базовые очки, умноженные на текущее комбо (каскад)
+            scoreManager.IncreasesScore(basePieceValue * streakValue);
+        }
+        // -------------------------------------
 
         for (int i = go.transform.childCount - 1; i >= 0; i--)
             Destroy(go.transform.GetChild(i).gameObject);
@@ -637,6 +645,10 @@ public class Board : MonoBehaviour
                     allDots[i, j] = piece;
                     piece.GetComponent<Dot>().row = j;
                     piece.GetComponent<Dot>().column = i;
+
+                    // ДОБАВЬ ВОТ ЭТИ ДВЕ СТРОЧКИ:
+                    piece.transform.parent = this.transform; // Прячем в Board
+                    piece.name = "( " + i + ", " + j + " )"; // Даем координаты вместо (Clone)
                 }
             }
         }
@@ -644,6 +656,7 @@ public class Board : MonoBehaviour
 
     private bool MatchesOnBoard()
     {
+        findMatches.FindAllMatches();
         for (int i = 0; i < width; i++)
         {
             findMatches.FindAllMatches();
@@ -905,7 +918,7 @@ public class Board : MonoBehaviour
         resolveCo = StartCoroutine(ResolveBoardCo());
     }
 
-    private IEnumerator ResolveBoardCo()
+    private IEnumerator ResolveBoardCo()    
     {
         IsResolving = true;
         lastClearedCount = 0;

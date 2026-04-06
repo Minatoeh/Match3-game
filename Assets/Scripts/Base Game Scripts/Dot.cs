@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -82,25 +82,19 @@ public class Dot : MonoBehaviour
 
 
     // Update is called once per frame
+    // Update is called once per frame
     void Update()
     {
-
         shineDelaySeconds -= Time.deltaTime;
-        if(shineDelaySeconds <= 0)
+        if (shineDelaySeconds <= 0)
         {
             shineDelaySeconds = shineDelay;
             StartCoroutine(StartShineCo());
         }
-        /*
-        if(isMatched){
-            
-            SpriteRenderer mySprite = GetComponent<SpriteRenderer>();
-            Color currentColor = mySprite.color;
-            mySprite.color = new Color(currentColor.r, currentColor.g, currentColor.b, .5f);
-        }
-        */
+
         targetX = column;
         targetY = row;
+
         if (Mathf.Abs(targetX - transform.position.x) > .1)
         {
             //Move Towards the target
@@ -109,7 +103,6 @@ public class Dot : MonoBehaviour
             if (board.allDots[column, row] != this.gameObject)
             {
                 board.allDots[column, row] = this.gameObject;
-                findMatches.FindAllMatches();
             }
         }
         else
@@ -117,8 +110,8 @@ public class Dot : MonoBehaviour
             //Directly set the position
             tempPosition = new Vector2(targetX, transform.position.y);
             transform.position = tempPosition;
-
         }
+
         if (Mathf.Abs(targetY - transform.position.y) > .1)
         {
             //Move Towards the target
@@ -127,7 +120,6 @@ public class Dot : MonoBehaviour
             if (board.allDots[column, row] != this.gameObject)
             {
                 board.allDots[column, row] = this.gameObject;
-                findMatches.FindAllMatches();
             }
         }
         else
@@ -135,7 +127,6 @@ public class Dot : MonoBehaviour
             //Directly set the position
             tempPosition = new Vector2(transform.position.x, targetY);
             transform.position = tempPosition;
-
         }
     }
 
@@ -208,31 +199,31 @@ public class Dot : MonoBehaviour
         }
         else if (isRowBomb)
         {
-            findMatches.MarkDotMatched(column, row);   
+            findMatches.MarkDotMatched(column, row);
             findMatches.ClearRow(row);
             isMatched = true;
         }
         else if (isColumnBomb)
         {
-            findMatches.MarkDotMatched(column, row);   
+            findMatches.MarkDotMatched(column, row);
             findMatches.ClearColumn(column);
             isMatched = true;
         }
         else if (isAdjacentBomb)
         {
-            findMatches.MarkDotMatched(column, row);   
+            findMatches.MarkDotMatched(column, row);
             findMatches.ClearAdjacent(column, row);
             isMatched = true;
         }
         else if (OtherDotComp != null && OtherDotComp.isRowBomb)
         {
-            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row); 
+            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row);
             findMatches.ClearRow(OtherDotComp.row);
             OtherDotComp.isMatched = true;
         }
         else if (OtherDotComp != null && OtherDotComp.isColumnBomb)
         {
-            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row); 
+            findMatches.MarkDotMatched(OtherDotComp.column, OtherDotComp.row);
             findMatches.ClearColumn(OtherDotComp.column);
             OtherDotComp.isMatched = true;
         }
@@ -243,23 +234,36 @@ public class Dot : MonoBehaviour
             OtherDotComp.isMatched = true;
         }
 
-
+        // Ждем, пока фишки доедут
         yield return new WaitForSeconds(.5f);
+
+        // ПРИНУДИТЕЛЬНЫЙ ПОИСК СОВПАДЕНИЙ (Ровно 1 раз)
+        findMatches.FindAllMatches();
+
+        // Микро-пауза, чтобы скрипт FindMatches отработал
+        yield return new WaitForSeconds(.1f);
 
         if (otherDot != null)
         {
             if (!isMatched && !OtherDotComp.isMatched)
             {
+                // МАТЧА НЕТ - Возвращаем переменные
                 OtherDotComp.row = row;
                 OtherDotComp.column = column;
                 row = previousRow;
                 column = previousColumn;
+
+                // СТРАХОВКА МАССИВА: Жестко возвращаем фишки в сетку на старые места
+                board.allDots[column, row] = this.gameObject;
+                board.allDots[OtherDotComp.column, OtherDotComp.row] = otherDot;
+
                 yield return new WaitForSeconds(.5f);
                 board.currentDot = null;
                 board.currentState = GameState.move;
             }
             else
             {
+                // МАТЧ ЕСТЬ - Уничтожаем
                 if (endGameManager != null && endGameManager.requirements.gameType == GameType.Moves)
                 {
                     endGameManager.DecreaseCounterValue();

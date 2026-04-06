@@ -3,7 +3,15 @@ guid: eb2d38446f71acd4386b23c2f8d47802
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - world: {fileID: 11400000, guid: 555dbc8f53a88394680926da0cbef1b8, type: 2}
+  - tilePrefab: {instanceID: 0}
+  - breakableTilePrefab: {fileID: 4597445099529678268, guid: c0d577cf3693d2540981adc0a5adf708, type: 3}
+  - lockTilePrefab: {fileID: 1560931733195200862, guid: ba0143ea6263c3141bf01c6fda3596cb, type: 3}
+  - concreteTilePrefab: {fileID: 7157056610351134986, guid: 788ccb166d814814f90df420bf4359c4, type: 3}
+  - slimePiecePrefab: {fileID: 3504207161287070924, guid: 6b3f84efaa896f04299ae35f6f8a8bb8, type: 3}
+  - destroyParticle: {fileID: 8690148766875015416, guid: 838fd29c574eedd49ba31a0040bb6e74, type: 3}
+  - currentDot: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

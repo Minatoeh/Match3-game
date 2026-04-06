@@ -18,7 +18,7 @@ public class FindMatches : MonoBehaviour
 
     public void FindAllMatches()
     {
-        StartCoroutine(FindAllMatchesCo());
+        FindAllMatchesCo();
     }
 
     private List<GameObject> IsRowBomb(Dot dot1, Dot dot2, Dot dot3)
@@ -62,10 +62,9 @@ public class FindMatches : MonoBehaviour
         AddToListAndMatch(dot3);
     }
 
-    private IEnumerator FindAllMatchesCo()
+    private void FindAllMatchesCo()
     {
         //yield return new WaitForSeconds(.2f);
-        yield return null;
         for (int i = 0; i < board.width; i++)
         {
             for (int j = 0; j < board.height; j++)

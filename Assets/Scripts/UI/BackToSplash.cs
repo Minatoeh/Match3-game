@@ -46,6 +46,11 @@ public class BackToSplash : MonoBehaviour
         }
     }
 
+    public void LoseOk()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     private int CalcStars(int score, int[] goals)
     {
         if (goals == null || goals.Length == 0) return 0;

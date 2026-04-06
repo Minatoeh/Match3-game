@@ -43,10 +43,18 @@ MonoBehaviour:
     counterValue: 15
   levelGoals:
   - numberNeeded: 6
-    numberCollected: 25
+    numberCollected: 12
     goalSprite: {fileID: 1954562486, guid: 60b42ddf1b11105408d65d3b19ed4921, type: 3}
     matchValue: Fire Dot
   - numberNeeded: 10
-    numberCollected: 25
+    numberCollected: 12
+    goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
+    matchValue: Fire Dot
+  - numberNeeded: 10
+    numberCollected: 12
+    goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
+    matchValue: Fire Dot
+  - numberNeeded: 10
+    numberCollected: 12
     goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
     matchValue: Fire Dot
