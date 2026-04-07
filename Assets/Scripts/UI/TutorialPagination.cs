@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 using DG.Tweening;
 
 public class TutorialPagination : MonoBehaviour
@@ -12,6 +11,7 @@ public class TutorialPagination : MonoBehaviour
     [Header("Pages")]
     public GameObject[] pages;
     public Button nextButton;
+    public Button prevButton; // ДОБАВИЛИ: Ссылка на кнопку "Назад"
 
     [Header("Button Images")]
     public Image nextButtonImage;
@@ -19,26 +19,23 @@ public class TutorialPagination : MonoBehaviour
     public Sprite playSprite;
 
     private int _currentPageIndex = 0;
-
-    // Флаг, который скажет нам, запустили ли мы туториал из настроек
     private bool _isReplayingFromSettings = false;
 
     private void Awake()
     {
         if (canvasGroup == null) canvasGroup = GetComponent<CanvasGroup>();
+
         nextButton.onClick.AddListener(OnNextButtonClicked);
+
+        // Подключаем кнопку "Назад", если она назначена в инспекторе
+        if (prevButton != null)
+        {
+            prevButton.onClick.AddListener(OnPrevButtonClicked);
+        }
     }
 
-    // 1. СТАРЫЙ МЕТОД: Вызывается кнопкой PLAY при старте игры
     public void StartTutorialFlow()
     {
-        // ВРЕМЕННО ОТКЛЮЧАЕМ ПРОВЕРКУ ДЛЯ ТЕСТОВ:
-        // if (PlayerPrefs.GetInt("TutorialDone", 0) == 1)
-        // {
-        //     OpenLevelSelect();
-        //     return;
-        // }
-
         _currentPageIndex = 0;
         UpdatePagesVisibility();
 
@@ -47,14 +44,12 @@ public class TutorialPagination : MonoBehaviour
         canvasGroup.DOFade(1f, 0.5f);
     }
 
-    // 2. НОВЫЙ МЕТОД: Будем вызывать его кнопкой из Настроек
     public void ShowTutorialOnDemand()
     {
-        _isReplayingFromSettings = true; // Запомнили, что это повтор из меню
+        _isReplayingFromSettings = true;
         ShowTutorialPanel();
     }
 
-    // Вынесли общую логику показа в отдельный блок, чтобы не дублировать код
     private void ShowTutorialPanel()
     {
         _currentPageIndex = 0;
@@ -62,7 +57,7 @@ public class TutorialPagination : MonoBehaviour
 
         gameObject.SetActive(true);
         canvasGroup.alpha = 0f;
-        transform.localScale = new Vector3(0.9f, 0.9f, 1f); // Легкий зум при появлении
+        transform.localScale = new Vector3(0.9f, 0.9f, 1f);
 
         canvasGroup.DOFade(1f, 0.5f);
         transform.DOScale(1f, 0.5f).SetEase(Ease.OutBack);
@@ -73,6 +68,7 @@ public class TutorialPagination : MonoBehaviour
         nextButton.transform.DOPunchScale(new Vector3(0.1f, 0.1f, 0), 0.2f, 5);
         _currentPageIndex++;
 
+        // Если дошли до конца — закрываем туториал
         if (_currentPageIndex >= pages.Length)
         {
             FinishTutorial();
@@ -82,37 +78,50 @@ public class TutorialPagination : MonoBehaviour
         UpdatePagesVisibility();
     }
 
+    // НОВЫЙ МЕТОД: Обработка клика "Назад"
+    private void OnPrevButtonClicked()
+    {
+        prevButton.transform.DOPunchScale(new Vector3(0.1f, 0.1f, 0), 0.2f, 5);
+
+        _currentPageIndex--;
+        if (_currentPageIndex < 0) _currentPageIndex = 0;
+
+        UpdatePagesVisibility();
+    }
+
     private void UpdatePagesVisibility()
     {
+        // 1. Включаем нужную страницу, выключаем остальные
         for (int i = 0; i < pages.Length; i++)
         {
             if (pages[i] != null) pages[i].SetActive(i == _currentPageIndex);
         }
 
+        // 2. Логика отображения кнопки "Назад"
+        if (prevButton != null)
+        {
+            // Показываем кнопку только если мы НЕ на первой странице
+            prevButton.gameObject.SetActive(_currentPageIndex > 0);
+        }
+
+        // 3. Логика смены иконки на кнопке "Далее / Старт"
         if (nextButtonImage != null)
         {
             if (_currentPageIndex == pages.Length - 1)
             {
-                // Если мы открыли из настроек, можно написать "Закрыть", 
-                // но пока оставим картинку playSprite (В бой / Ок)
-                nextButtonImage.sprite = playSprite;
+                nextButtonImage.sprite = playSprite; // Последняя страница
             }
             else
             {
-                nextButtonImage.sprite = nextSprite;
+                nextButtonImage.sprite = nextSprite; // Все остальные страницы
             }
         }
     }
 
     private void FinishTutorial()
     {
-        // Сохраняем прогресс ТОЛЬКО если это первый запуск
         if (!_isReplayingFromSettings)
         {
-            PlayerPrefs.SetInt("TutorialDone", 1);
-            PlayerPrefs.Save();
-
-            // Заранее включаем Level Select для красивого перехода
             levelSelectPanel.SetActive(true);
             CanvasGroup levelGroup = levelSelectPanel.GetComponent<CanvasGroup>();
             if (levelGroup == null) levelGroup = levelSelectPanel.AddComponent<CanvasGroup>();
@@ -123,14 +132,12 @@ public class TutorialPagination : MonoBehaviour
             levelSelectPanel.transform.DOScale(1f, 0.6f).SetEase(Ease.OutCubic);
         }
 
-        // Плавное закрытие самого свитка
         transform.DOScale(0.9f, 0.4f).SetEase(Ease.InQuad);
         canvasGroup.DOFade(0f, 0.4f).OnComplete(() =>
         {
             gameObject.SetActive(false);
             transform.localScale = Vector3.one;
 
-            // Открываем уровни, ТОЛЬКО если мы не в режиме повтора
             if (!_isReplayingFromSettings)
             {
                 OpenLevelSelect();
