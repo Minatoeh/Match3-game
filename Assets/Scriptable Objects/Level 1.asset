@@ -12,27 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6acb55169ad41d5428f95312a4c127e0, type: 3}
   m_Name: Level 1
   m_EditorClassIdentifier: 
-  width: 8
-  height: 8
-  boardLayout:
-  - x: 0
-    y: 0
-    tileKind: 3
-  - x: 0
-    y: 3
-    tileKind: 4
-  - x: 0
-    y: 6
-    tileKind: 0
-  - x: 7
-    y: 0
-    tileKind: 2
-  - x: 7
-    y: 3
-    tileKind: 1
-  - x: 7
-    y: 6
-    tileKind: 1
+  width: 5
+  height: 5
+  boardLayout: []
   dots:
   - {fileID: 8328900531813999927, guid: f67a8216031bd2e41bdf19200a865e87, type: 3}
   - {fileID: 3861041283149978114, guid: a6dbb20bb94aa524f9468b001b8d7031, type: 3}
@@ -43,18 +25,14 @@ MonoBehaviour:
     counterValue: 15
   levelGoals:
   - numberNeeded: 6
-    numberCollected: 12
+    numberCollected: 0
     goalSprite: {fileID: 1954562486, guid: 60b42ddf1b11105408d65d3b19ed4921, type: 3}
     matchValue: Fire Dot
   - numberNeeded: 10
-    numberCollected: 12
+    numberCollected: 0
     goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
-    matchValue: Fire Dot
+    matchValue: Salt Dot
   - numberNeeded: 10
-    numberCollected: 12
-    goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
-    matchValue: Fire Dot
-  - numberNeeded: 10
-    numberCollected: 12
-    goalSprite: {fileID: -442435362, guid: ca5ba2a2342905745ad2541a393d0ee5, type: 3}
-    matchValue: Fire Dot
+    numberCollected: 0
+    goalSprite: {fileID: 1262108648, guid: 1d623c92a96315b46bc55bdda0938c0d, type: 3}
+    matchValue: Mercury Dot
